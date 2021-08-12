@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html , body , #root {
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    color: wheat;
+}
+
+#main-header{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: wheat;
+    display: flex;    
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A4D3E ;
+    box-shadow: 0 2px 3px black;
+}
