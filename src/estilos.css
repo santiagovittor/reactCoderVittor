@@ -38,7 +38,79 @@ a:hover{
 }
 
 .saludoBienvenida:hover{
-    background-color: wheat;
+    background-color: bisque;
     box-shadow: 0 2px 3px black
 }
 
+.itemList{
+    display: grid;
+    width: 30vh;
+    height: 40vh;
+    border: 2.5px black ridge;
+    box-shadow: teal 0 2px 3px;
+    border-radius: 1em;
+    margin: 1em auto;
+    background-color: white;
+    place-items: center;
+    grid-gap: 1em;
+    grid-template-areas: "producto"
+                        "producto"
+                        "producto"
+                        "cantidad"
+                        "agregar";
+}
+
+.itemList:hover{
+    transform: scale(1.01);
+    transition: 0.25s;
+}
+
+.itemList--top{
+    display: grid;
+    width: 100%;
+    background-color: white;
+    grid-area: cantidad;
+    place-items: center;
+    grid-template-areas: "botonRestar . contador . botonSumar";
+}
+.itemList--bottom{
+    display: grid;
+    grid-area: agregar;
+}
+
+#botonSumar{
+    display: grid;
+    background-color: white;
+    color: rgb(46, 46, 189);
+    border: none;
+    grid-area: botonSumar;
+}
+
+#botonSumar:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+#botonRestar{
+    display: grid;
+    background-color: white;
+    color: rgb(46, 46, 189);
+    border: none;
+    grid-area: botonRestar;
+}
+
+#botonRestar:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+#contadorItem{
+    display: grid;
+    place-items: center;
+    margin: auto;
+    grid-area: contador;
+}
+
+#botonAgregar{
+    display: grid;
+    background-color: #193A29;
+}
