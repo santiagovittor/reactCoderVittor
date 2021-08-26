@@ -1,5 +1,5 @@
-import CartWidget from "../cartWidget/CartWidget";
-import ButtonSwitch from "../botonSwitch/BotonSwitch";
+import CartWidget from "./cartWidget/CartWidget";
+import ButtonSwitch from "./buttonSwitch/ButtonSwitch"
 const NavBar = () => {
     return (
         <>
@@ -10,8 +10,8 @@ const NavBar = () => {
                     <br></br>
                     <a href="index.html">link</a>
                 </nav>
-                <ButtonSwitch/>
-                <CartWidget/>
+                <ButtonSwitch />
+                <CartWidget />
             </header>
         </>
     )

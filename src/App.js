@@ -6,8 +6,8 @@ import "./estilos.css"
 const App = () => {
     return (
         <>
-        <NavBar/>
-        <ItemListContainer nombre="Santi"/>
+            <NavBar />
+            <ItemListContainer nombre="Santi" />
         </>
     )
 }

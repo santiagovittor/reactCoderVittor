@@ -1,17 +1,36 @@
-import ItemListCount from "../itemCount/ItemCount"
+import { useState } from "react";
+import { useEffect } from "react";
+import ItemList from "./ItemList";
+import { Spinner } from "react-bootstrap";
 
-const ItemListContainer = (props) => {
-    return ( 
-        <>
-        <div className="saludoBienvenida">
-        <h2>Hola! Bienvenido, {props.nombre}</h2>
-        </div>
-        <div>
-            <ItemListCount stock={5} initial={1} onAdd={(cantidad)=>{console.log(cantidad)}}/>
-            <ItemListCount stock={10} initial={3} onAdd={(cantidad)=>{console.log(cantidad)}}/>
-        </div>
-        </>
-     );
+
+const URL_PRODUCTOS_API = 'https://mocki.io/v1/dd6dfa5b-b5c0-40b5-947b-fe5970db919c'
+
+const ItemListContainer = () => {
+    const [dataToShow, setDataToShow] = useState([]);
+
+    useEffect(() => {
+        fetch(URL_PRODUCTOS_API)
+            .then(response => response.json())
+            .then((data) => {
+                const aux = data.filter(data => data.disponible)
+                setDataToShow(aux);
+                console.log(aux)
+            })
+    }, []);
+    return (
+        dataToShow.length === 0 ? (
+            <div className="itemContainer">
+                <Spinner animation="border" role="status">
+                    <span className="visually-hidden">Cargando...</span>
+                </Spinner>
+            </div>
+        ) : (
+            <div className="itemList">
+                <ItemList dataToItemList={dataToShow} />
+            </div>
+        )
+
+    )
 }
- 
 export default ItemListContainer;

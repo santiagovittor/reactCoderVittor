@@ -1,0 +1,175 @@
+[
+    {
+        "id": "1",
+        "nombre": "Manchester United",
+        "precio": 7950,
+        "categoria": "camisetas",
+        "temporada": "98-99",
+        "color": [],
+        "imagen": "https://www.footballkitarchive.com/images/2020/12/05/PaFxF1QWtEUyjzd/manchester-united-1998-99-home.jpg",
+        "talla": [
+            "40",
+            "42",
+            "46"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "2",
+        "nombre": "Lazio",
+        "precio": 7500,
+        "categoria": "camisetas",
+        "temporada": "90-91",
+        "color": [
+            "Celeste"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2020/01/tQru7N9ndM93bqA/lazio-1990-91-home.jpg",
+        "talla": [
+            "38"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "3",
+        "nombre": "River Plate",
+        "precio": 11950,
+        "categoria": "camisetas",
+        "temporada": "99-00",
+        "color": [
+            "Prelavado"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2021/02/19/xnrjAmLPPTURHqv/river-plate-1999-00-third.jpg",
+        "talla": [
+            "46"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "4",
+        "nombre": "Lyon",
+        "precio": 6999,
+        "categoria": "camisetas",
+        "temporada": "20-21",
+        "color": [
+            "Negro"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2021/01/27/MUAwTWg05wsOZOt/olympique-lyon-2020-21-home.jpg",
+        "talla": [
+            "42",
+            "46"
+        ],
+        "disponible": false
+    },
+    {
+        "id": "5",
+        "nombre": "Monaco",
+        "precio": 8999,
+        "categoria": "camisetas",
+        "temporada": "03-04",
+        "Color": [
+            "Rojo"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2020/12/17/fqGXcjHIKT5zOqG/as-monaco-2003-04-home.jpg",
+        "Talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "6",
+        "nombre": "Milan",
+        "precio": 9999,
+        "categoria": "camisetas",
+        "temporada": "96-97",
+        "color": [
+            "Rojo"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2019/06/Gxk0fr01mM3xCJG/ac-milan-1996-97-home.jpg",
+        "Talla": [
+            "40",
+            "44"
+        ],
+        "disponible": false
+    },
+    {
+        "id": "7",
+        "nombre": "Estrella Roja",
+        "precio": 8999,
+        "categoria": "camisetas",
+        "temporada": "21-22",
+        "color": [
+            "Rojo"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2021/08/16/CcpGbfEYKQIw4Mo/red-star-belgrade-2021-22-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": false
+    },
+    {
+        "id": "8",
+        "nombre": "Arsenal",
+        "precio": 15999,
+        "categoria": "camisetas",
+        "temporada": "05-06",
+        "color": [
+            "Bordeaux"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2020/12/02/FXRKgEXC02tp7mQ/arsenal-fc-2005-06-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "9",
+        "nombre": "Barcelona",
+        "precio": 13000,
+        "categoria": "camisetas",
+        "temporada": "97-98",
+        "color": [
+            "Rojo"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2020/11/24/5MNFs1Pjf5fa5Qu/fc-barcelona-1997-98-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": false
+    },
+    {
+        "id": "11",
+        "nombre": "Real Madrid",
+        "precio": 11999,
+        "temporada": "95-96",
+        "categoria": "camisetas",
+        "color": [
+            "Violeta"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2019/06/0Fb8og8arFNR3yg/real-madrid-1995-96-away.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "12",
+        "nombre": "Ajax",
+        "precio": 8999,
+        "temporada": "94-95",
+        "categoria": "camisetas",
+        "color": [
+            "Rojo"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2019/06/BCpOB9SBhXfVQXo/ajax-amsterdam-1994-95-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    }
+]

@@ -1,4 +1,3 @@
-// 1) 16925 - Tener la variable React en scope
 import React from "react";
 // 2) Tener la variable ReactDom en scope
 import ReactDOM from "react-dom";
