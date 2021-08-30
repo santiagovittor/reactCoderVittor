@@ -1,9 +1,7 @@
 import { Fragment, useState } from "react"
 import { Button } from "react-bootstrap"
 
-
-//            <ItemListCount stock={5} initial={1} onAdd={(cantidad)=>{console.log(cantidad)}}/>
-const ItemListCount = ({ stock, onAdd, initial }) => {
+const ItemCount = ({ stock, onAdd, initial }) => {
     let [contador, setContador] = useState(initial)
     const sumar = () => {
         if (contador < stock) {
@@ -22,17 +20,16 @@ const ItemListCount = ({ stock, onAdd, initial }) => {
     }
     return (
         <Fragment>
-
             <div className="itemCard--top">
-                <Button id="botonSumar" onClick={sumar}>+</Button>
-                <p id="contadorItem">{contador}</p>
-                <Button id="botonRestar" onClick={restar}>-</Button>
+                <Button id="plusButton" onClick={sumar}>+</Button>
+                <p id="counterNumber">{contador}</p>
+                <Button id="minusButton" onClick={restar}>-</Button>
             </div>
             <div className="itemCard--bottom">
-                <Button id="botonAgregar" variant="success" disabled={stock ? false : true} onClick={agregar}>Agregar al carrito</Button>
+                <Button id="viewDetailsButton" variant="success"  disabled={stock ? false : true} onClick={agregar}>Agregar al carrito</Button>
             </div>
         </Fragment>
     );
 }
 
-export default ItemListCount;
+export default ItemCount;

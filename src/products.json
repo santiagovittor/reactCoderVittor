@@ -3,8 +3,10 @@
         "id": "1",
         "nombre": "Manchester United",
         "precio": 7950,
-        "categoria": "camisetas",
+        "categoria": "Camisetas",
+        "kit":"Titular",
         "temporada": "98-99",
+        "liga":"Inglaterra",
         "color": [],
         "imagen": "https://www.footballkitarchive.com/images/2020/12/05/PaFxF1QWtEUyjzd/manchester-united-1998-99-home.jpg",
         "talla": [
@@ -12,14 +14,18 @@
             "42",
             "46"
         ],
+        "descripcion":"Un año historico para los Red Devils, quienes de la mano de un brillante David Beckham ganaron el triplete con Premier League, Fa Cup y Champions League incluidos.",
+        "imagenDescripcion":"https://i.pinimg.com/originals/46/fb/11/46fb11a50a318f71b3e5780c85443e96.jpg",
         "disponible": true
     },
     {
         "id": "2",
         "nombre": "Lazio",
         "precio": 7500,
-        "categoria": "camisetas",
+        "categoria": "Camisetas",
+        "kit":"Titular",
         "temporada": "90-91",
+        "liga":"Italia",
         "color": [
             "Celeste"
         ],
@@ -27,45 +33,57 @@
         "talla": [
             "38"
         ],
+        "imagenDescripcion":"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flaziowiki.org%2Fw%2Fimages%2F2%2F20%2F15set91Formazione2.jpg&f=1&nofb=1",
+        "descripcion":"No fue la mejor temporada para el equipo romano, pero quedó para el recuerdo de sus aficionados este bellisimo kit Umbro con los clásicos estampados de la época.",
         "disponible": true
     },
     {
         "id": "3",
         "nombre": "River Plate",
         "precio": 11950,
-        "categoria": "camisetas",
+        "categoria": "Camisetas",
+        "kit":"Alternativa",
         "temporada": "99-00",
+        "liga":"Argentina",
         "color": [
-            "Prelavado"
+            "Rojo"
         ],
         "imagen": "https://www.footballkitarchive.com/images/2021/02/19/xnrjAmLPPTURHqv/river-plate-1999-00-third.jpg",
         "talla": [
             "46"
         ],
+        "imagenDescripcion":"https://3.bp.blogspot.com/-j1Ujp1vLqtg/VKg7DfLZo1I/AAAAAAAAAck/KyfazwNtxAA/s1600/Marcelo_Gallardo_12.JPG",
+        "descripcion":"Dirigido por Ramón Díaz el equipo millonario se consagró campeón del Apertura 1999 con un equipo plagado de estrellas de la talla de Pablo Aimar, Javier Saviola, Marcelo Gallardo y Juan Pablo Angel.",
         "disponible": true
     },
     {
         "id": "4",
-        "nombre": "Lyon",
-        "precio": 6999,
-        "categoria": "camisetas",
-        "temporada": "20-21",
+        "nombre": "Brazil",
+        "precio": 14000,
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "temporada": "2002",
+        "liga":"Mundial",
         "color": [
             "Negro"
         ],
-        "imagen": "https://www.footballkitarchive.com/images/2021/01/27/MUAwTWg05wsOZOt/olympique-lyon-2020-21-home.jpg",
+        "imagen": "https://www.footballkitarchive.com/images/2020/10/01/h8q9smzcbeTUe5g/brazil-2002-home.jpg",
         "talla": [
             "42",
             "46"
         ],
-        "disponible": false
+        "imagenDescripcion":"https://images.performgroup.com/di/library/Goal_Croatia/cb/a/ronaldo-nazario-brazil-2002_c157fmxrivvd11ia63zb5shob.jpg?t=-1635890568",
+        "descripcion":"La verdeamarelha se llevó el Mundial de Corea-Japón 2002 con una magistral actuación de Ronaldo. Lucía en ese entonces esta bellisima e icónica casaca.",
+        "disponible": true
     },
     {
         "id": "5",
         "nombre": "Monaco",
         "precio": 8999,
-        "categoria": "camisetas",
+        "categoria": "Camisetas",
+        "kit":"Titular",
         "temporada": "03-04",
+        "liga":"Francia",
         "Color": [
             "Rojo"
         ],
@@ -74,14 +92,18 @@
             "40",
             "44"
         ],
+        "imagenDescripcion":"https://worldsoccertalk.com/wp-content/uploads/2015/03/morientes-600x396.jpg",
+        "descripcion":"Sin grandes estrellas, el equipo del principado logró llegar a la final de la UEFA Champions League en el año 2004 con una gran actuación de sus delanteros Emmanuel Adebayor y Fernando Morientes. Lamentablemente, cayó frente al Porto en dicha final, pero se recuerda el bonito diseño de su kit.",
         "disponible": true
     },
     {
         "id": "6",
         "nombre": "Milan",
         "precio": 9999,
-        "categoria": "camisetas",
+        "categoria": "Camisetas",
+        "kit":"Titular",
         "temporada": "96-97",
+        "liga":"Italia",
         "color": [
             "Rojo"
         ],
@@ -90,30 +112,38 @@
             "40",
             "44"
         ],
-        "disponible": false
+        "imagenDescripcion":"https://www.elfutbolesinjusto.com/wp-content/uploads/2015/02/Baresi-AC-Milan.jpg",
+        "descripcion":"No fue un año exitoso en materia deportiva, pero esta camiseta es recordada por la aficion rossonera como la última en ser vestida por el legendario Franco Baresi. Curiosamente, fueron dirigidos por el uruguayo Oscar Tabarez y contaban con figuras como Roberto Baggio y Paolo Maldini.",
+        "disponible": true
     },
     {
         "id": "7",
-        "nombre": "Estrella Roja",
-        "precio": 8999,
-        "categoria": "camisetas",
-        "temporada": "21-22",
+        "nombre": "Francia",
+        "precio": 18999,
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "temporada": "1998",
+        "liga":"Mundial",
         "color": [
-            "Rojo"
+            "Azul"
         ],
-        "imagen": "https://www.footballkitarchive.com/images/2021/08/16/CcpGbfEYKQIw4Mo/red-star-belgrade-2021-22-home.jpg",
+        "imagen": "https://www.footballkitarchive.com/images/2019/10/oatp1bC1MgNZPEy/france-1998-home.jpg",
         "talla": [
             "40",
             "44"
         ],
-        "disponible": false
+        "imagenDescripcion":"https://www.blog-note.com/wp-content/uploads/2016/06/zidane-1998.jpg",
+        "descripcion":"Esta histórica camiseta fue la utilizada por los galos al consagrarse en el mundial realizado en su país en 1998. De la mano de un inspiradísimo Zinedine Zidane, obtuvieron entonces su primer mundial y nos regalaron esta joya del diseño deportivo.",
+        "disponible": true
     },
     {
         "id": "8",
         "nombre": "Arsenal",
         "precio": 15999,
-        "categoria": "camisetas",
+        "categoria": "Camisetas",
+        "kit":"Titular",
         "temporada": "05-06",
+        "liga":"Inglaterra",
         "color": [
             "Bordeaux"
         ],
@@ -122,14 +152,18 @@
             "40",
             "44"
         ],
+        "imagenDescripcion":"http://cdn.images.dailystar.co.uk/dynamic/122/photos/92000/900x738/329092.jpg",
+        "descripcion":"Una camiseta histórica que está en la memoria de una generación entera de hinchas de fútbol. En este equipo de Arsenal jugaban muchas figuras como Thierry Henry, Robert Pirés y Cesc Fábregas, entre otros. Tuvo una excelente participación en la Champions League pero cayó en la final contra el Barcelona por 2-1.",
         "disponible": true
     },
     {
         "id": "9",
         "nombre": "Barcelona",
         "precio": 13000,
-        "categoria": "camisetas",
+        "categoria": "Camisetas",
+        "kit":"Titular",
         "temporada": "97-98",
+        "liga":"España",
         "color": [
             "Rojo"
         ],
@@ -138,14 +172,18 @@
             "40",
             "44"
         ],
-        "disponible": false
+        "imagenDescripcion":"https://www.mundodeportivo.com/r/GODO/MD/p1/Polideportivo/Imagenes/2012/08/06/Recortada/MD_20120806_MAS_DEPORTE_D_54333592185-652x492@MundoDeportivo-Web.jpg",
+        "descripcion":"Dirigidos por Louis Van Gaal, con esta camiseta se lucieron estrellas del calibre de Rivaldo y Figo. Las icónicas mangas con logo Kappa quedaron en la memoria de los aficionados del club, cuya temporada futbolística se coronó con el título de la Liga con 20 goles de Rivaldo, quien fué el máximo goleador.",
+        "disponible": true
     },
     {
         "id": "11",
         "nombre": "Real Madrid",
         "precio": 11999,
         "temporada": "95-96",
-        "categoria": "camisetas",
+        "categoria": "Camisetas",
+        "kit":"Suplente",
+        "liga":"España",
         "color": [
             "Violeta"
         ],
@@ -154,6 +192,8 @@
             "40",
             "44"
         ],
+        "imagenDescripcion":"https://pmlagranfamilia.com/wp-content/uploads/2019/03/A2-15135155Thumb-810x345.jpg",
+        "descripcion":"La 1995-1996 es recordada por su afición como la peor temporada de la historia del conjunto merengue. El conjunto de Valdano venía de ser campeón pero no estuvo a la altura y quedó fuera de todas las competiciones europeas. Nos dejó, sin embargo, la confirmación de Raúl como nuevo ídolo y este bonito kit violeta que perdura a día de hoy en nuestra memoria.",
         "disponible": true
     },
     {
@@ -161,11 +201,285 @@
         "nombre": "Ajax",
         "precio": 8999,
         "temporada": "94-95",
-        "categoria": "camisetas",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Holanda",
         "color": [
             "Rojo"
         ],
         "imagen": "https://www.footballkitarchive.com/images/2019/06/BCpOB9SBhXfVQXo/ajax-amsterdam-1994-95-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion":"http://101voetbalmomenten.nl/wp-content/uploads/2018/10/1995-Ajax.jpg",
+        "descripcion":"Este equipo de Ajax permaneció invicto durante un año, ganando todos los títulos que disputó, inclusive la hasta el momento última Champions League del equipo de Amsterdam. Es recordado como uno de los mejores equipos de la historia del fútbol y nos dejó, también, esta hermosa camiseta como legado.",
+        "disponible": true
+    },
+    {
+        "id": "13",
+        "nombre": "Paris Saint Germain",
+        "precio": 16000,
+        "temporada": "98-99",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Francia",
+        "color": [
+            "Azul"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2019/06/35i7sYW2MCORlZB/paris-saint-germain-1998-99-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "14",
+        "nombre": "Valencia",
+        "precio": 8999,
+        "temporada": "01-02",
+        "categoria": "Camisetas",
+        "kit":"Suplente",
+        "liga":"España",
+        "color": [
+            "Naranja"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2019/06/t2qapoZ6kFxvp9v/valencia-2001-02-away.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "15",
+        "nombre": "Lille",
+        "precio": 9500,
+        "temporada": "00-01",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Francia",
+        "color": [
+            "Rojo"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2021/03/13/XvniIT5JzXemxAS/lille-losc-2000-01-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "16",
+        "nombre": "Boca Juniors",
+        "precio": 5500,
+        "temporada": "95-96",
+        "categoria": "Camisetas",
+        "kit":"Suplente",
+        "liga":"Argentina",
+        "color": [
+            "Blanco"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2020/01/9GQp5SP3YLb0uB8/boca-juniors-1995-96-away.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "17",
+        "nombre": "Parma",
+        "precio": 15500,
+        "temporada": "99-00",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Italia",
+        "color": [
+            "Amarillo"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2021/05/04/WSjFBls9JsQuXdr/parma-1999-00-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "18",
+        "nombre": "Bayern Munich",
+        "precio": 11200,
+        "temporada": "94-95",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Alemania",
+        "color": [
+            "Rojo"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2021/05/09/5K7Rqh3PDij1Upn/bayern-munchen-1994-95-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "19",
+        "nombre": "Bayer Leverkusen",
+        "precio": 11200,
+        "temporada": "97-98",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Alemania",
+        "color": [
+            "Rojo"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2020/05/H9LeibdX9sve5tq/bayer-04-leverkusen-1997-98-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "20",
+        "nombre": "Juventus",
+        "precio": 15400,
+        "temporada": "98-99",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Italia",
+        "color": [
+            "Rojo"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2019/06/OITEg3TOOuhar5F/juventus-fc-1998-99-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    }, 
+    {
+        "id": "21",
+        "nombre": "Sao Paulo",
+        "precio": 15400,
+        "temporada": "97",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Brasil",
+        "color": [
+            "Blanco" 
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2021/03/09/dSBRhJf3tLjh8O1/sao-paulo-1997-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "22",
+        "nombre": "Atletico Madrid",
+        "precio": 12100,
+        "temporada": "98-99",
+        "categoria": "Camisetas",
+        "kit":"Suplente",
+        "liga":"España",
+        "color": [
+            "Azul"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2019/06/dftOAVlaSfh1CGp/atletico-madrid-1995-96-away.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "23",
+        "nombre": "Chelsea",
+        "precio": 12100,
+        "temporada": "92-93",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Inglaterra",
+        "color": [
+            "Azul"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2021/05/04/etTfO17euHiyi7F/chelsea-fc-1992-93-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "24",
+        "nombre": "Fiorentina",
+        "precio": 12100,
+        "temporada": "97-98",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Italia",
+        "color": [
+            "Violeta"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2020/01/8wmeNhqkiSJZEa6/fiorentina-1997-98-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "25",
+        "nombre": "West Ham",
+        "precio": 18000,
+        "temporada": "98-99",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Inglaterra",
+        "color": [
+            "Bordeaux"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2019/09/tnuLsysBD0XHUEN/west-ham-1998-99-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "26",
+        "nombre": "Borussia Dortmund",
+        "precio": 9400,
+        "temporada": "97-98",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Alemania",
+        "color": [
+            "Amarillo"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2019/06/jpIskVjHTDWQ9X9/borussia-dortmund-1997-98-home.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "disponible": true
+    },
+    {
+        "id": "27",
+        "nombre": "Eintracht Braunschweig",
+        "precio": 22000,
+        "temporada": "86-87",
+        "categoria": "Camisetas",
+        "kit":"Titular",
+        "liga":"Alemania",
+        "color": [
+            "Celeste"
+        ],
+        "imagen": "https://www.footballkitarchive.com/images/2021/04/11/tCmktoN2zD0qCmi/eintracht-braunschweig-1986-87-away.jpg",
         "talla": [
             "40",
             "44"

@@ -1,13 +1,13 @@
 import NavBar from "./components/nav/NavBar";
-import ItemListContainer from "./components/itemListContainer/ItemListContainer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./estilos.css"
+import ItemDetailContainer from "./components/itemDetailContainer/ItemDetailContainer";
 
 const App = () => {
     return (
         <>
             <NavBar />
-            <ItemListContainer nombre="Santi" />
+            <ItemDetailContainer />
         </>
     )
 }

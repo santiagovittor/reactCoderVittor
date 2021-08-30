@@ -7,41 +7,46 @@
 html,
 body,
 #root {
+    background-color: #f8f9fa;
     min-height: 100vh;
-}
-
-img {
-    width: 12rem;
-    height: 12rem;
-}
-
-img:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
 }
 
 a {
     text-decoration: none;
-    color: whitesmoke;
+    color: #ffffff;
 }
 a:hover {
-    color: wheat;
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
 }
 
 #main-header {
     font-family: "Andada Pro", serif;
-    color: wheat;
+    color: white;
     display: flex;
     padding: 0.5rem 1rem;
     justify-content: space-between;
     align-items: center;
-    background-color: #193a29;
-    box-shadow: 0 2px 3px black;
+    background-color: #7d1f0c;
+    box-shadow: 0 2px 3px #a3b4a2;
+}
+#main-header:hover {
+    background-color: #5998c5;
+    transition: 1s;
+}
+
+.loadingSpinnerContainer {
+    display: flex;
+    justify-content: center;
 }
 
 .itemList {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25%25%25%25%;
+    margin-top: 3rem;
 }
 
 .itemContainer {
@@ -50,7 +55,7 @@ a:hover {
     height: auto;
     font-family: "Andada Pro", serif;
     border: 2.5px black ridge;
-    box-shadow: teal 0 2px 3px;
+    box-shadow: black 0 2px 3px;
     border-radius: 1em;
     margin: 1em auto;
     background-color: white;
@@ -71,20 +76,32 @@ a:hover {
     transition: 0.25s;
 }
 
+.itemContainer h3 {
+    color: #193a29;
+}
+
 .itemCard--top {
     display: grid;
     width: 100%;
-    background-color: white;
     grid-area: cantidad;
     place-items: center;
-    grid-template-areas: "botonRestar . contador . botonSumar";
+    grid-template-areas: "botonRestar contador botonSumar";
 }
 .itemCard--bottom {
     display: grid;
     grid-area: agregar;
 }
 
-#botonSumar {
+#buttonSwitch {
+    border-radius: 100%;
+}
+
+#buttonSwitch:hover {
+    background-color: wheat;
+    transition: 1s;
+}
+
+#plusButton {
     display: grid;
     background-color: white;
     color: rgb(46, 46, 189);
@@ -92,11 +109,12 @@ a:hover {
     grid-area: botonSumar;
 }
 
-#botonSumar:hover {
+#plusButton:hover {
     transform: scale(1.5);
     transition: 0.5s;
 }
-#botonRestar {
+
+#minusButton {
     display: grid;
     background-color: white;
     color: rgb(46, 46, 189);
@@ -104,27 +122,104 @@ a:hover {
     grid-area: botonRestar;
 }
 
-#botonRestar:hover {
+#minusButton:hover {
     transform: scale(1.5);
     transition: 0.5s;
 }
 
-#contadorItem {
+#counterNumber {
     display: grid;
     place-items: center;
     margin: auto;
     grid-area: contador;
 }
 
-#botonAgregar {
+#viewDetailsButton {
     display: grid;
-    background-color: #193a29;
+    background-color: #7d1f0c;
+    border: none;
+    width: auto;
     opacity: 0.8;
     margin-bottom: 6vh;
 }
-#botonAgregar:hover {
+#viewDetailsButton:hover {
     display: grid;
-    background-color: #193a29;
+    background-color: #7d1f0c;
     margin-bottom: 6vh;
     opacity: 1;
+}
+
+.itemDetailContainer {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.itemDetailRightContainer {
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    margin: 2rem;
+    border: 0.25rem #7d1f0c ridge;
+    height: fit-content;
+    box-shadow: black 0 2px 3px;
+    padding: 3rem;
+    border-radius: 1em;
+    place-content: center;
+    opacity: 0.7;
+}
+.itemDetailRightContainer:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.itemDetailRightContainer h3 {
+    font-family: "Andada Pro", serif;
+    font-size: 2rem;
+    padding-bottom: 1.1rem;
+}
+
+.itemDetailRightContainer p {
+    font-family: "Andada Pro", serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.itemDetailRightContainer img {
+    width: 30rem;
+    height: auto;
+    border: #7d1f0c ridge 0.4rem;
+    border-radius: 1rem;
+}
+
+.itemDetailCardContainer {
+    display: grid;
+    width: 80%;
+    height: fit-content;
+    font-family: "Andada Pro", serif;
+    border: 0.25rem #7d1f0c ridge;
+    box-shadow: black 0 2px 3px;
+    border-radius: 1em;
+    margin: 2rem;
+    background-color: white;
+    place-items: center;
+    grid-gap: 1em;
+    grid-template-areas:
+        "producto"
+        "producto"
+        "producto"
+        "cantidad"
+        "agregar";
+}
+
+.itemDetailCardContainer h3 {
+    color: #193a29;
+}
+
+.itemDetailCardContainer img {
+    width: 20rem;
+}
+
+.itemDetailCardContainer img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
