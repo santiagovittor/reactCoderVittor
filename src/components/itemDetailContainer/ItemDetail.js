@@ -1,13 +1,13 @@
 import ItemCount from "../itemCount/ItemCount";
 import { Form } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 
 const ItemDetail = ({ dataToItemDetail }) => {
-    console.log(dataToItemDetail)
     return (
         <>
             <div className="itemDetailCardContainer">
                 <h4>#{dataToItemDetail.id}</h4>
-                <img src={dataToItemDetail.imagen} alt="Soccer Shirt"></img>
+                <Image src={dataToItemDetail.imagen} alt="Soccer Shirt" fluid />
                 <ul>
                     <h3>Camiseta {dataToItemDetail.nombre} {dataToItemDetail.kit}</h3>
                     <li>Precio: ${dataToItemDetail.precio}</li>
@@ -20,10 +20,10 @@ const ItemDetail = ({ dataToItemDetail }) => {
                         <option value="L">L</option>
                     </Form.Select>
                 </ul>
-                <ItemCount stock={5} initial={1} onAdd={(cantidad) => { console.log(cantidad) }}></ItemCount>
+                <ItemCount stock={5} initial={1} onAdd={(cantidad) => { console.log(cantidad + " " + "camisetas " + dataToItemDetail.nombre + " " + dataToItemDetail.kit + "= $" + (cantidad * dataToItemDetail.precio)) }}></ItemCount>
             </div>
             <div className="itemDetailRightContainer">
-                <img src={dataToItemDetail.imagenDescripcion} alt="Imagen de la camiseta siendo utilizada por el equipo durante ese año." />
+                <Image src={dataToItemDetail.imagenDescripcion} fluid alt="Imagen de la camiseta siendo utilizada por el equipo durante ese año." />
                 <h3>++ Un poco de historia ++</h3>
                 <p>{dataToItemDetail.descripcion}</p>
             </div>

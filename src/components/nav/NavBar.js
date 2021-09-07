@@ -1,20 +1,19 @@
 import CartWidget from "./cartWidget/CartWidget";
-import ButtonSwitch from "./buttonSwitch/ButtonSwitch"
-
+import { Link } from "react-router-dom";
+import Categories from "./categories/Categories";
 
 
 const NavBar = () => {
-return (
+    return (
         <>
-            <header id="main-header">
-                <h1>theFootballStore</h1>
+            <header>
                 <nav>
-                    <a href="index.html">link</a>
-                    <br></br>
-                    <a href="index.html">link</a>
+                    <Link to="/">
+                        <h1>theFootballStore</h1>
+                    </Link>
+                    <Categories />
+                    <CartWidget />
                 </nav>
-                <ButtonSwitch />
-                <CartWidget />
             </header>
         </>
     )

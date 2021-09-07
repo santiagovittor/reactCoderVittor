@@ -3,10 +3,10 @@
         "id": "1",
         "nombre": "Manchester United",
         "precio": 7950,
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "temporada": "98-99",
-        "liga":"Inglaterra",
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "temporada": 1998,
+        "liga": "Inglaterra",
         "color": [],
         "imagen": "https://www.footballkitarchive.com/images/2020/12/05/PaFxF1QWtEUyjzd/manchester-united-1998-99-home.jpg",
         "talla": [
@@ -14,18 +14,18 @@
             "42",
             "46"
         ],
-        "descripcion":"Un año historico para los Red Devils, quienes de la mano de un brillante David Beckham ganaron el triplete con Premier League, Fa Cup y Champions League incluidos.",
-        "imagenDescripcion":"https://i.pinimg.com/originals/46/fb/11/46fb11a50a318f71b3e5780c85443e96.jpg",
+        "descripcion": "Un año historico para los Red Devils, quienes de la mano de un brillante David Beckham ganaron el triplete con Premier League, Fa Cup y Champions League incluidos.",
+        "imagenDescripcion": "https://i.pinimg.com/originals/46/fb/11/46fb11a50a318f71b3e5780c85443e96.jpg",
         "disponible": true
     },
     {
         "id": "2",
         "nombre": "Lazio",
         "precio": 7500,
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "temporada": "90-91",
-        "liga":"Italia",
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "temporada": 1990,
+        "liga": "Italia",
         "color": [
             "Celeste"
         ],
@@ -33,37 +33,37 @@
         "talla": [
             "38"
         ],
-        "imagenDescripcion":"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flaziowiki.org%2Fw%2Fimages%2F2%2F20%2F15set91Formazione2.jpg&f=1&nofb=1",
-        "descripcion":"No fue la mejor temporada para el equipo romano, pero quedó para el recuerdo de sus aficionados este bellisimo kit Umbro con los clásicos estampados de la época.",
+        "imagenDescripcion": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flaziowiki.org%2Fw%2Fimages%2F2%2F20%2F15set91Formazione2.jpg&f=1&nofb=1",
+        "descripcion": "No fue la mejor temporada para el equipo romano, pero quedó para el recuerdo de sus aficionados este bellisimo kit Umbro con los clásicos estampados de la época.",
         "disponible": true
     },
     {
         "id": "3",
         "nombre": "River Plate",
         "precio": 11950,
-        "categoria": "Camisetas",
-        "kit":"Alternativa",
-        "temporada": "99-00",
-        "liga":"Argentina",
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "temporada": 1996,
+        "liga": "Argentina",
         "color": [
-            "Rojo"
+            "Blanco"
         ],
-        "imagen": "https://www.footballkitarchive.com/images/2021/02/19/xnrjAmLPPTURHqv/river-plate-1999-00-third.jpg",
+        "imagen": "https://cdn.footballkitarchive.com/2021/02/19/p9tUg5tbO87F6z4.jpg",
         "talla": [
             "46"
         ],
-        "imagenDescripcion":"https://3.bp.blogspot.com/-j1Ujp1vLqtg/VKg7DfLZo1I/AAAAAAAAAck/KyfazwNtxAA/s1600/Marcelo_Gallardo_12.JPG",
-        "descripcion":"Dirigido por Ramón Díaz el equipo millonario se consagró campeón del Apertura 1999 con un equipo plagado de estrellas de la talla de Pablo Aimar, Javier Saviola, Marcelo Gallardo y Juan Pablo Angel.",
+        "imagenDescripcion": "https://pbs.twimg.com/media/Dx-FFvLVsAATCol.jpg",
+        "descripcion": "Luego de ganar la Copa Libertadores 1996 con dos goles de Hernán Crespo en la final contra América de Cali, el millonario se enfrentó a Juventus por la Copa Intercontinental. Lució, entonces este modelo conmemorativo con las copas bordadas. Jugaron ese día jugadores como Enzo Francescoli(foto) y Ariel Ortega de un lado y Zinedine Zidane y Alessandro del Piero en el otro.",
         "disponible": true
     },
     {
         "id": "4",
         "nombre": "Brazil",
         "precio": 14000,
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "temporada": "2002",
-        "liga":"Mundial",
+        "categoria": "Paises",
+        "kit": "Titular",
+        "temporada": 2002,
+        "liga": "Mundial",
         "color": [
             "Negro"
         ],
@@ -72,18 +72,18 @@
             "42",
             "46"
         ],
-        "imagenDescripcion":"https://images.performgroup.com/di/library/Goal_Croatia/cb/a/ronaldo-nazario-brazil-2002_c157fmxrivvd11ia63zb5shob.jpg?t=-1635890568",
-        "descripcion":"La verdeamarelha se llevó el Mundial de Corea-Japón 2002 con una magistral actuación de Ronaldo. Lucía en ese entonces esta bellisima e icónica casaca.",
+        "imagenDescripcion": "https://images.performgroup.com/di/library/Goal_Croatia/cb/a/ronaldo-nazario-brazil-2002_c157fmxrivvd11ia63zb5shob.jpg?t=-1635890568",
+        "descripcion": "La verdeamarelha se llevó el Mundial de Corea-Japón 2002 con una magistral actuación de Ronaldo. Lucía en ese entonces esta bellisima e icónica casaca.",
         "disponible": true
     },
     {
         "id": "5",
         "nombre": "Monaco",
         "precio": 8999,
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "temporada": "03-04",
-        "liga":"Francia",
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "temporada": 2003,
+        "liga": "Francia",
         "Color": [
             "Rojo"
         ],
@@ -92,18 +92,18 @@
             "40",
             "44"
         ],
-        "imagenDescripcion":"https://worldsoccertalk.com/wp-content/uploads/2015/03/morientes-600x396.jpg",
-        "descripcion":"Sin grandes estrellas, el equipo del principado logró llegar a la final de la UEFA Champions League en el año 2004 con una gran actuación de sus delanteros Emmanuel Adebayor y Fernando Morientes. Lamentablemente, cayó frente al Porto en dicha final, pero se recuerda el bonito diseño de su kit.",
+        "imagenDescripcion": "https://worldsoccertalk.com/wp-content/uploads/2015/03/morientes-600x396.jpg",
+        "descripcion": "Sin grandes estrellas, el equipo del principado logró llegar a la final de la UEFA Champions League en el año 2004 con una gran actuación de sus delanteros Emmanuel Adebayor y Fernando Morientes. Lamentablemente, cayó frente al Porto en dicha final, pero se recuerda el bonito diseño de su kit.",
         "disponible": true
     },
     {
         "id": "6",
         "nombre": "Milan",
         "precio": 9999,
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "temporada": "96-97",
-        "liga":"Italia",
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "temporada": 1996,
+        "liga": "Italia",
         "color": [
             "Rojo"
         ],
@@ -112,18 +112,18 @@
             "40",
             "44"
         ],
-        "imagenDescripcion":"https://www.elfutbolesinjusto.com/wp-content/uploads/2015/02/Baresi-AC-Milan.jpg",
-        "descripcion":"No fue un año exitoso en materia deportiva, pero esta camiseta es recordada por la aficion rossonera como la última en ser vestida por el legendario Franco Baresi. Curiosamente, fueron dirigidos por el uruguayo Oscar Tabarez y contaban con figuras como Roberto Baggio y Paolo Maldini.",
+        "imagenDescripcion": "https://www.elfutbolesinjusto.com/wp-content/uploads/2015/02/Baresi-AC-Milan.jpg",
+        "descripcion": "No fue un año exitoso en materia deportiva, pero esta camiseta es recordada por la aficion rossonera como la última en ser vestida por el legendario Franco Baresi. Curiosamente, fueron dirigidos por el uruguayo Oscar Tabarez y contaban con figuras como Roberto Baggio y Paolo Maldini.",
         "disponible": true
     },
     {
         "id": "7",
         "nombre": "Francia",
         "precio": 18999,
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "temporada": "1998",
-        "liga":"Mundial",
+        "categoria": "Paises",
+        "kit": "Titular",
+        "temporada": 1998,
+        "liga": "Mundial",
         "color": [
             "Azul"
         ],
@@ -132,18 +132,18 @@
             "40",
             "44"
         ],
-        "imagenDescripcion":"https://www.blog-note.com/wp-content/uploads/2016/06/zidane-1998.jpg",
-        "descripcion":"Esta histórica camiseta fue la utilizada por los galos al consagrarse en el mundial realizado en su país en 1998. De la mano de un inspiradísimo Zinedine Zidane, obtuvieron entonces su primer mundial y nos regalaron esta joya del diseño deportivo.",
+        "imagenDescripcion": "https://www.blog-note.com/wp-content/uploads/2016/06/zidane-1998.jpg",
+        "descripcion": "Esta histórica camiseta fue la utilizada por los galos al consagrarse en el mundial realizado en su país en 1998. De la mano de un inspiradísimo Zinedine Zidane, obtuvieron entonces su primer mundial y nos regalaron esta joya del diseño deportivo.",
         "disponible": true
     },
     {
         "id": "8",
         "nombre": "Arsenal",
         "precio": 15999,
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "temporada": "05-06",
-        "liga":"Inglaterra",
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "temporada": 2005,
+        "liga": "Inglaterra",
         "color": [
             "Bordeaux"
         ],
@@ -152,18 +152,18 @@
             "40",
             "44"
         ],
-        "imagenDescripcion":"http://cdn.images.dailystar.co.uk/dynamic/122/photos/92000/900x738/329092.jpg",
-        "descripcion":"Una camiseta histórica que está en la memoria de una generación entera de hinchas de fútbol. En este equipo de Arsenal jugaban muchas figuras como Thierry Henry, Robert Pirés y Cesc Fábregas, entre otros. Tuvo una excelente participación en la Champions League pero cayó en la final contra el Barcelona por 2-1.",
+        "imagenDescripcion": "http://cdn.images.dailystar.co.uk/dynamic/122/photos/92000/900x738/329092.jpg",
+        "descripcion": "Una camiseta histórica que está en la memoria de una generación entera de hinchas de fútbol. En este equipo de Arsenal jugaban muchas figuras como Thierry Henry, Robert Pirés y Cesc Fábregas, entre otros. Tuvo una excelente participación en la Champions League pero cayó en la final contra el Barcelona por 2-1.",
         "disponible": true
     },
     {
         "id": "9",
         "nombre": "Barcelona",
         "precio": 13000,
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "temporada": "97-98",
-        "liga":"España",
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "temporada": 1997,
+        "liga": "España",
         "color": [
             "Rojo"
         ],
@@ -172,18 +172,18 @@
             "40",
             "44"
         ],
-        "imagenDescripcion":"https://www.mundodeportivo.com/r/GODO/MD/p1/Polideportivo/Imagenes/2012/08/06/Recortada/MD_20120806_MAS_DEPORTE_D_54333592185-652x492@MundoDeportivo-Web.jpg",
-        "descripcion":"Dirigidos por Louis Van Gaal, con esta camiseta se lucieron estrellas del calibre de Rivaldo y Figo. Las icónicas mangas con logo Kappa quedaron en la memoria de los aficionados del club, cuya temporada futbolística se coronó con el título de la Liga con 20 goles de Rivaldo, quien fué el máximo goleador.",
+        "imagenDescripcion": "https://www.mundodeportivo.com/r/GODO/MD/p1/Polideportivo/Imagenes/2012/08/06/Recortada/MD_20120806_MAS_DEPORTE_D_54333592185-652x492@MundoDeportivo-Web.jpg",
+        "descripcion": "Dirigidos por Louis Van Gaal, con esta camiseta se lucieron estrellas del calibre de Rivaldo y Figo. Las icónicas mangas con logo Kappa quedaron en la memoria de los aficionados del club, cuya temporada futbolística se coronó con el título de la Liga con 20 goles de Rivaldo, quien fué el máximo goleador.",
         "disponible": true
     },
     {
         "id": "11",
         "nombre": "Real Madrid",
         "precio": 11999,
-        "temporada": "95-96",
-        "categoria": "Camisetas",
-        "kit":"Suplente",
-        "liga":"España",
+        "temporada": 1995,
+        "categoria": "Clubes",
+        "kit": "Suplente",
+        "liga": "España",
         "color": [
             "Violeta"
         ],
@@ -192,18 +192,18 @@
             "40",
             "44"
         ],
-        "imagenDescripcion":"https://pmlagranfamilia.com/wp-content/uploads/2019/03/A2-15135155Thumb-810x345.jpg",
-        "descripcion":"La 1995-1996 es recordada por su afición como la peor temporada de la historia del conjunto merengue. El conjunto de Valdano venía de ser campeón pero no estuvo a la altura y quedó fuera de todas las competiciones europeas. Nos dejó, sin embargo, la confirmación de Raúl como nuevo ídolo y este bonito kit violeta que perdura a día de hoy en nuestra memoria.",
+        "imagenDescripcion": "https://pmlagranfamilia.com/wp-content/uploads/2019/03/A2-15135155Thumb-810x345.jpg",
+        "descripcion": "La 1995-1996 es recordada por su afición como la peor temporada de la historia del conjunto merengue. El conjunto de Valdano venía de ser campeón pero no estuvo a la altura y quedó fuera de todas las competiciones europeas. Nos dejó, sin embargo, la confirmación de Raúl como nuevo ídolo y este bonito kit violeta que perdura a día de hoy en nuestra memoria.",
         "disponible": true
     },
     {
         "id": "12",
         "nombre": "Ajax",
         "precio": 8999,
-        "temporada": "94-95",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Holanda",
+        "temporada": 1994,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Holanda",
         "color": [
             "Rojo"
         ],
@@ -212,18 +212,18 @@
             "40",
             "44"
         ],
-        "imagenDescripcion":"http://101voetbalmomenten.nl/wp-content/uploads/2018/10/1995-Ajax.jpg",
-        "descripcion":"Este equipo de Ajax permaneció invicto durante un año, ganando todos los títulos que disputó, inclusive la hasta el momento última Champions League del equipo de Amsterdam. Es recordado como uno de los mejores equipos de la historia del fútbol y nos dejó, también, esta hermosa camiseta como legado.",
+        "imagenDescripcion": "http://101voetbalmomenten.nl/wp-content/uploads/2018/10/1995-Ajax.jpg",
+        "descripcion": "Este equipo de Ajax permaneció invicto durante un año, ganando todos los títulos que disputó, inclusive la hasta el momento última Champions League del equipo de Amsterdam. Es recordado como uno de los mejores equipos de la historia del fútbol y nos dejó, también, esta hermosa camiseta como legado.",
         "disponible": true
     },
     {
         "id": "13",
         "nombre": "Paris Saint Germain",
         "precio": 16000,
-        "temporada": "98-99",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Francia",
+        "temporada": 1998,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Francia",
         "color": [
             "Azul"
         ],
@@ -232,16 +232,18 @@
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://static.wixstatic.com/media/850697_3a9e38c0088947669c38c120e2e64e9f~mv2_d_1280_1446_s_2.jpg/v1/fill/w_1280,h_1446,al_c,q_85/850697_3a9e38c0088947669c38c120e2e64e9f~mv2_d_1280_1446_s_2.jpg",
+        "descripcion": "Lejos de los flashes actuales, este equipo del PSG luchaba en la Ligue One y quedó lejos de los puestos europeos en la temporada 1998-1999. Su máxima figura era en ese entonces el recordado Jay Jay Okocha.",
         "disponible": true
     },
     {
         "id": "14",
         "nombre": "Valencia",
         "precio": 8999,
-        "temporada": "01-02",
-        "categoria": "Camisetas",
-        "kit":"Suplente",
-        "liga":"España",
+        "temporada": 2001,
+        "categoria": "Clubes",
+        "kit": "Suplente",
+        "liga": "España",
         "color": [
             "Naranja"
         ],
@@ -250,34 +252,38 @@
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://static.lasprovincias.es/multimedia/201505/05/media/liga/liga%20(21).jpg",
+        "descripcion": "Esta temporada el equipo valenciano se consagró campeón de La Liga después de mas de 30 años de sequía de la mano de Rafa Benitez. Sus máximas figuras fueron Santiago Cañizares y los centrales argentinos Mauricio Pellegrino y Roberto Ayala. Se destacó también un muy joven Pablo Aimar, recién llegado a la institución.",
         "disponible": true
     },
     {
         "id": "15",
-        "nombre": "Lille",
+        "nombre": "Marsella",
         "precio": 9500,
-        "temporada": "00-01",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Francia",
+        "temporada": 1992,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Francia",
         "color": [
-            "Rojo"
+            "Blanca"
         ],
-        "imagen": "https://www.footballkitarchive.com/images/2021/03/13/XvniIT5JzXemxAS/lille-losc-2000-01-home.jpg",
+        "imagen": "https://cdn.footballkitarchive.com/2021/04/05/SxtGOvuF8ZFSSWq.jpg",
         "talla": [
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://i.pinimg.com/originals/b5/6a/d4/b56ad45a149597bc0b91560d77c567aa.jpg",
+        "descripcion": "Los galos se consagraron campeones de la primer edición de la Champions League, con un plantel de juveniles que serían luego grandes estrellas como Fabien Barthez, Marcel Desailly y Didier Deschamps; y con la experiencia de una leyenda: Rudi Voeller.",
         "disponible": true
     },
     {
         "id": "16",
         "nombre": "Boca Juniors",
         "precio": 5500,
-        "temporada": "95-96",
-        "categoria": "Camisetas",
-        "kit":"Suplente",
-        "liga":"Argentina",
+        "temporada": 1995,
+        "categoria": "Clubes",
+        "kit": "Suplente",
+        "liga": "Argentina",
         "color": [
             "Blanco"
         ],
@@ -286,16 +292,18 @@
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://images.performgroup.com/di/library/GOAL_INTERNATIONAL/c1/81/maradona-boca-1995_rizdatcx0pyn1j0ipk9xjudf7.jpg?t=1629735817",
+        "descripcion": "Después de 14 temporadas, Diego Maradona volvía a jugar en Boca Juniors. Lo hizo rodeado de figuras como Navarro Montoya, Juan Sebastián Verón, Claudio Caniggia y el Kily Gonzalez, entre otros. Pese a ello, el equipo dirigido por Carlos Bilardo quedó quinto y Maradona falló un total de 5 penales en el torneo.",
         "disponible": true
     },
     {
         "id": "17",
         "nombre": "Parma",
         "precio": 15500,
-        "temporada": "99-00",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Italia",
+        "temporada": 1999,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Italia",
         "color": [
             "Amarillo"
         ],
@@ -304,16 +312,18 @@
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://upload.wikimedia.org/wikipedia/it/thumb/2/2e/Parma_Associazione_Calcio_1998-99.jpg/1200px-Parma_Associazione_Calcio_1998-99.jpg",
+        "descripcion": "Un Parma plagado de estrellas, equipo ícono de los comienzos del siglo XXI que contaba con figuras como Gianluigi Buffon, Hernan Crespo, Ariel Ortega y Fabio Cannavaro. El equipo consiguió en el año 1999 la Copa UEFA, goleando por 3-0 en la final al Olympique de Marsella. ",
         "disponible": true
     },
     {
         "id": "18",
         "nombre": "Bayern Munich",
         "precio": 11200,
-        "temporada": "94-95",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Alemania",
+        "temporada": 1994,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Alemania",
         "color": [
             "Rojo"
         ],
@@ -322,16 +332,18 @@
             "40",
             "44"
         ],
+        "imagenDescripcion": "http://prints.colorsport.co.uk/p/210/norwich-city-bayern-munich-1993-4-uefa-cup-6820443.jpg",
+        "descripcion": "Si bien no fué la mejor temporada del equipo bávaro, llegando hasta semifinales de la Champions League y quedando en el quinto lugar en la Bundesliga; dejaron como recuerdo este bonito diseño de Adidas que fue vestido por líderes como Oliver Kahn y Lothar Matthäus.",
         "disponible": true
     },
     {
         "id": "19",
         "nombre": "Bayer Leverkusen",
         "precio": 11200,
-        "temporada": "97-98",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Alemania",
+        "temporada": 1997,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Alemania",
         "color": [
             "Rojo"
         ],
@@ -340,16 +352,18 @@
             "40",
             "44"
         ],
+        "imagenDescripcion": "http://e0.365dm.com/16/08/16-9/20/bayer-leverkusen-real-madrid-christian-worns-predrag-mijatovic-paulo-rink-champions-league-1998_3771507.jpg?20160824163333",
+        "descripcion": "El equipo de Leverkusen alcanzó los cuartos de final de la Champions en la temporada 1997-1998 utilizando este diseño Adidas. No tenía grandes figuras, destacandose la presencia de los hermanos Robert y Niko Kovac en su plantel.",
         "disponible": true
     },
     {
         "id": "20",
         "nombre": "Juventus",
         "precio": 15400,
-        "temporada": "98-99",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Italia",
+        "temporada": 1998,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Italia",
         "color": [
             "Rojo"
         ],
@@ -358,34 +372,38 @@
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://upload.wikimedia.org/wikipedia/it/7/7b/Juventus_Football_Club_1998-99.jpg",
+        "descripcion": "La peor temporada doméstica de Juventus en mucho tiempo, en una temporada marcada por la lesión de sus estrellas Alex Del Piero y Zinedine Zidane. El equipo de Turín quedó séptimo en la Serie A pero alcanzó las semifinales de la Champions League de la mano de Carlo Ancelotti, quien se hizo cargo del equipo luego de la destitución de Marcello Lippi.",
         "disponible": true
-    }, 
+    },
     {
         "id": "21",
-        "nombre": "Sao Paulo",
+        "nombre": "Gremio",
         "precio": 15400,
-        "temporada": "97",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Brasil",
+        "temporada": 2017,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Brasil",
         "color": [
-            "Blanco" 
+            "Blanco"
         ],
-        "imagen": "https://www.footballkitarchive.com/images/2021/03/09/dSBRhJf3tLjh8O1/sao-paulo-1997-home.jpg",
+        "imagen": "https://cdn.footballkitarchive.com/2020/12/23/j6y19AFPTauVlk9.jpg",
         "talla": [
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://elencos.com.br/wp-content/uploads/2019/10/Elenco-Gr%C3%AAmio-2017.jpg",
+        "descripcion": "Este equipo de Gremio se consagró campeón frente a Lanús de la Copa Libertadores de América, con enormes actuaciones de jugadores como Arthur y Luan.",
         "disponible": true
     },
     {
         "id": "22",
         "nombre": "Atletico Madrid",
         "precio": 12100,
-        "temporada": "98-99",
-        "categoria": "Camisetas",
-        "kit":"Suplente",
-        "liga":"España",
+        "temporada": 1998,
+        "categoria": "Clubes",
+        "kit": "Suplente",
+        "liga": "España",
         "color": [
             "Azul"
         ],
@@ -394,34 +412,38 @@
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://www.estoesatleti.es/wp-content/uploads/2016/11/1998_Christian-Vieri-of-Atletico-Madrid-e1480465944417.jpg",
+        "descripcion": "Christian Vieri se destacó esta temporada anotando un total de 24 goles para el colchonero, sin embargo esto no fue suficiente para una plantilla por demás opaca. Años despues el jugador italiano declaró que fue un error haber fichado para la institución madrileña.",
         "disponible": true
     },
     {
         "id": "23",
-        "nombre": "Chelsea",
-        "precio": 12100,
-        "temporada": "92-93",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Inglaterra",
+        "nombre": "Real Betis",
+        "precio": 18000,
+        "temporada": 1995,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "España",
         "color": [
             "Azul"
         ],
-        "imagen": "https://www.footballkitarchive.com/images/2021/05/04/etTfO17euHiyi7F/chelsea-fc-1992-93-home.jpg",
+        "imagen": "https://cdn.footballkitarchive.com/2020/12/16/lmrxgOlaoY03pOq.jpg",
         "talla": [
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://i0.wp.com/www.manquepierda.com/historiarealbetis/files/2018/09/Alineaci%C3%B3n-Betis-Athletic-Liga-1996.jpg",
+        "descripcion": "Esta bonita camiseta marca Kappa utilizada por el equipo sevillano durante la temporada 95-96 fue recientemente rescatada para una remake. El equipo quedó cuarto en la liga con una gran actuación de Alfonso.",
         "disponible": true
     },
     {
         "id": "24",
         "nombre": "Fiorentina",
         "precio": 12100,
-        "temporada": "97-98",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Italia",
+        "temporada": 1997,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Italia",
         "color": [
             "Violeta"
         ],
@@ -430,16 +452,18 @@
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://img.okezone.com/content/2019/07/05/51/2075097/batistuta-legenda-fiorentina-yang-dipuja-rakyat-argentina-5ZFcqmLwTA.jpg",
+        "descripcion": "Gabriel Batistuta convirtió 24 goles en la temporada 1998-1999 vistiendo esta inolvidable camiseta que tenía a Nintendo como principal sponsor.",
         "disponible": true
     },
     {
         "id": "25",
         "nombre": "West Ham",
         "precio": 18000,
-        "temporada": "98-99",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Inglaterra",
+        "temporada": 1998,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Inglaterra",
         "color": [
             "Bordeaux"
         ],
@@ -448,16 +472,18 @@
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://massageishealthy.com/wp-content/uploads/2019/11/Frank-Lampard-ELLE-Man-3.jpg",
+        "descripcion": "Esta temporada el equipo londinense logró su mejor posición histórica en Premier League, quedando en el quinto puesto de la liga. Contaba en su plantilla con algunos jovenes que serían protagonistas durante los siguientes años del fútbol inglés, como Rio Ferdinand, Joe Cole y Frank Lampard.",
         "disponible": true
     },
     {
         "id": "26",
         "nombre": "Borussia Dortmund",
         "precio": 9400,
-        "temporada": "97-98",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Alemania",
+        "temporada": 1997,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Alemania",
         "color": [
             "Amarillo"
         ],
@@ -466,24 +492,208 @@
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://borussiadortmund.net.br/uploads/phpWDh2cv.jpg",
+        "descripcion": "El equipo alemán, que venía de ganar su única Champions League coronó un 1997 ideal venciendo a Cruzeiro por 2-0 en la Copa Intercontinental disputada en Tokyo.",
         "disponible": true
     },
     {
         "id": "27",
         "nombre": "Eintracht Braunschweig",
         "precio": 22000,
-        "temporada": "86-87",
-        "categoria": "Camisetas",
-        "kit":"Titular",
-        "liga":"Alemania",
+        "temporada": 1978,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Alemania",
         "color": [
-            "Celeste"
+            "Amarillo"
         ],
-        "imagen": "https://www.footballkitarchive.com/images/2021/04/11/tCmktoN2zD0qCmi/eintracht-braunschweig-1986-87-away.jpg",
+        "imagen": "https://cdn.footballkitarchive.com/2021/04/11/oRKJ5udLnxXlOL7.jpg",
         "talla": [
             "40",
             "44"
         ],
+        "imagenDescripcion": "https://secure-mediaproxy.kicker.de/v3/image/mediadb.kicker.de/ThumbnailatorAspectResizeFilter/w880dp-normal-xhdpi/1979/fussball/mannschaft/xxl/41_2017530111152208.png",
+        "descripcion": "Como curiosidad, el Eintracht fue el primer equipo alemán en contar con un patrocinador en sus camisetas, al punto de estar cerca de renombrarse como Eintracht Jägermeister. El patrocinador pagó al equipo 100.000 DM e introdujo una nueva manera de hacer negocios en el fútbol.",
+        "disponible": true
+    },
+    {
+        "id": "28",
+        "nombre": "Yugoslavia",
+        "precio": 12500,
+        "temporada": 1990,
+        "categoria": "Paises",
+        "kit": "Titular",
+        "liga": "Mundial",
+        "color": [
+            "Azul"
+        ],
+        "imagen": "https://cdn.footballkitarchive.com/2020/10/03/tJu8cmqjwuFtRee.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://1.bp.blogspot.com/-AzO_8IaYz-k/Wh9-EUcVM0I/AAAAAAAAq-k/DilvhxoKmNEYyfOhXKyEgCs_j-TLJnA7wCLcBGAs/s1600/Yugoslavia%2B1990.06.10.%2Bgermany-jugoslavia.jpg",
+        "descripcion": "El equipo balcánico fue uno de los 24 participantes de la Copa del Mundo de Italia 1990, cayendo por penales ante Argentina en cuartos de final. En sus filas se destacaban grandes jugadores como Robert Prosinečki y Davor Šuker.",
+        "disponible": true
+    },
+    {
+        "id": "29",
+        "nombre": "Italia",
+        "precio": 13000,
+        "temporada": 1998,
+        "categoria": "Paises",
+        "kit": "Local",
+        "liga": "Mundial",
+        "color": [
+            "Azul"
+        ],
+        "imagen": "https://cdn.footballkitarchive.com/2020/10/02/WUKma4p9QQND0AS.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://www.minejerseys.com.cn/html/upload/temp_img/202006/106113/015916114422d7881ba.jpg",
+        "descripcion": "Esta Selección de Italia plagada de estrellas vio culminar su sueño en Francia 1998 frente al equipo local en la instancia de cuartos de final. Un equipo con jugadores inolvidables como Paolo Maldini, Fabio Cannavaro, Alessandro Nesta, Robbie Baggio y Christian Vieri. ",
+        "disponible": true
+    },
+    {
+        "id": "30",
+        "nombre": "Estados Unidos",
+        "precio": 14500,
+        "temporada": 1994,
+        "categoria": "Paises",
+        "kit": "Visitante",
+        "liga": "Mundial",
+        "color": [
+            "Azul"
+        ],
+        "imagen": "https://cdn.footballkitarchive.com/2020/10/02/1wzMyAMPt5rKMm7.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://static.dailyforest.com/wp-content/uploads/2018/07/29065250/Featured.jpg",
+        "descripcion": "El seleccionado de los Estados Unidos lució durante su Copa del Mundo, en 1994, este extraño kit inspírado en su bandera. Estaba promocionado como su kit visitante pero fue utilizado en cada uno de los partidos que disputó el conjunto norteamericano. Lamentablemente para ellos, cayeron ante Brasil por 1-0 en octavos de final.",
+        "disponible": true
+    },
+    {
+        "id": "31",
+        "nombre": "Nigeria",
+        "precio": 11000,
+        "temporada": 1994,
+        "categoria": "Paises",
+        "kit": "Local",
+        "liga": "Mundial",
+        "color": [
+            "Verde"
+        ],
+        "imagen": "https://cdn.footballkitarchive.com/2020/10/02/cCIv7aaD0Z0oze0.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://www.makingofchamps.com/wp-content/uploads/2014/06/nigeria-1994-wc.jpg",
+        "descripcion": "El conjunto africano disputo en Estados Unidos 1994 el que fue su primer Mundial hasta el momento. Logró inclusive clasificar a la segunda ronda, cayendo ante el que sería el campeón de la competición: Italia.",
+        "disponible": true
+    },
+    {
+        "id": "33",
+        "nombre": "Argentina",
+        "precio": 16500,
+        "temporada": 1986,
+        "categoria": "Paises",
+        "kit": "Local",
+        "liga": "Mundial",
+        "color": [
+            "Celeste"
+        ],
+        "imagen": "https://cdn.footballkitarchive.com/2020/10/03/OoiFzLm1ynEcUld.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://images.performgroup.com/di/library/Goal_Argentina/ec/1e/argentina-world-cup-mexico-1986_1b2knt1ri634e1a5ysut5jlzig.jpg?t=-1820754777",
+        "descripcion": "Tal vez sea el Mundial más recordado por los aficionados argentinos. En México 1986 el conjunto rioplatense se llevó el último Mundial conseguido hasta el momento, de la mano de un genial Diego Maradona y de las muy destacables actuaciones de jugadores como Jorge Burruchaga y Oscar Ruggeri, entre otros tantos.",
+        "disponible": true
+    },
+    {
+        "id": "34",
+        "nombre": "Holanda",
+        "precio": 11000,
+        "temporada": 2014,
+        "categoria": "Paises",
+        "kit": "Visitante",
+        "liga": "Mundial",
+        "color": [
+            "Azul"
+        ],
+        "imagen": "https://cdn.footballkitarchive.com/2020/09/30/zM2wkPqf5DfPaA0.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://static.elcomercio.es/multimedia/201406/13/media/espana-holanda5.jpg",
+        "descripcion": "El seleccionado holandés pudo cobrarse venganza de lo sucedido en la final del Mundial de Sudáfrica 2010, nada menos que contra España, debutó en Brasil 2014 con un 5-0 inolvidable. Vistió entonces este bonito kit azul que quedó inmortalizado en el gol de palomita de Van Persie o en la memorable corrida de Arjen Robben desparramando a Iker Casillas.",
+        "disponible": true
+    },
+    {
+        "id": "35",
+        "nombre": "Inglaterra",
+        "precio": 9500,
+        "temporada": 1998,
+        "categoria": "Paises",
+        "kit": "Visitante",
+        "liga": "Mundial",
+        "color": [
+            "Rojo"
+        ],
+        "imagen": "https://cdn.footballkitarchive.com/2019/10/OabUUwsZ6SmTSwO.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://m0.sportsjoe.ie/wp-content/uploads/2016/06/19182305/GettyImages-1293174.jpg",
+        "descripcion": "Inglaterra tenía un equipo de jovenes muy interesante, con la camada que venía despuntando en el Manchester United de Sir Alex Ferguson. Convivían en esta selección talentos de la talla de David Beckham, Paul Scholes, Michael Owen y Alan Shearer. Cayeron en octavos de final frente a otro gran equipo de la época: Argentina.",
+        "disponible": true
+    },
+    {
+        "id": "36",
+        "nombre": "Inter de Milán",
+        "precio": 14000,
+        "temporada": 1988,
+        "categoria": "Clubes",
+        "kit": "Local",
+        "liga": "Italia",
+        "color": [
+            "Azul"
+        ],
+        "imagen": "https://cdn.footballkitarchive.com/2021/05/04/cQyLLtMhq5LQBhZ.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://sempreinter.com/wp-content/uploads/2018/11/Inter-1988-89-1024x699.jpg",
+        "descripcion": "Luego de casi 10 años el Inter volvió a levantar el trofeo de Serie A bajo la conducción de Giovanni Trapattoni. Este plantel contaba con jugadores como Andreas Brehme(quién dos años después sería el verdugo de Argentina en la final de Italia 1990), Lothar Matthäus y Ramón Diaz.",
+        "disponible": true
+    },
+    {
+        "id": "37",
+        "nombre": "Chelsea",
+        "precio": 9700,
+        "temporada": 2008,
+        "categoria": "Clubes",
+        "kit": "Local",
+        "liga": "Inglaterra",
+        "color": [
+            "Azul"
+        ],
+        "imagen": "https://cdn.footballkitarchive.com/2021/01/26/lWp0I2lU7YptRu6.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://images.daznservices.com/di/library/GOAL/a5/37/chelsea-champions-league-2008_jdgs2wbv8r5g1n7l2vksrcer2.jpg?t=-415759678&quality=60&w=1280",
+        "descripcion": "Esta temporada, los blues se quedaron en la puerta de su primer Champions League, cayendo en la final ante el Manchester United de Cristiano Ronaldo en definición por penales. Petr Cech, John Terry, Frank Lampard y Didier Drogba son algunos de los ilustres jugadores en vestir esta camiseta.",
         "disponible": true
     }
 ]

@@ -26,7 +26,7 @@ const ItemCount = ({ stock, onAdd, initial }) => {
                 <Button id="minusButton" onClick={restar}>-</Button>
             </div>
             <div className="itemCard--bottom">
-                <Button id="viewDetailsButton" variant="success"  disabled={stock ? false : true} onClick={agregar}>Agregar al carrito</Button>
+                <Button id="addToCartButton" variant="success" disabled={stock ? false : true} onClick={agregar}>Agregar al carrito</Button>
             </div>
         </Fragment>
     );

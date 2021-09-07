@@ -1,26 +1,37 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import ItemDetail from "./ItemDetail"
+import { useParams } from "react-router-dom";
+import { Spinner } from "react-bootstrap";
 
 
 const ItemDetailContainer = () => {
-    const downloadedData = "https://mocki.io/v1/3b646856-a590-43a9-9a8b-a8dc9d636ad4"
+    const downloadedData = "https://mocki.io/v1/33c051c1-4a72-45dc-bd47-f880787d47f2"
     const [dataToShow, setDataToShow] = useState({});
-    console.log(dataToShow)
+    const { id } = useParams();
+
     useEffect(() => {
         fetch(downloadedData)
             .then(response => response.json())
             .then((data) => {
-                const aux = data.find(data => data.id === "12")
+                const aux = data.find(data => data.id === id)
                 setDataToShow(aux);
-                console.log("aux es " + aux)
-            })
-    }, []);
+            }
+            )
+    }, [id]);
     return (
-        <div className="itemDetailContainer">
-            <ItemDetail dataToItemDetail={dataToShow} />
-        </div>
-    );
+        dataToShow.length === 0 ? (
+            <div className="loadingSpinnerContainer">
+                <Spinner animation="border" role="status">
+                    <span className="visually-hidden">Cargando...</span>
+                </Spinner>
+            </div>
+        ) : (
+            <div className="itemDetailContainer">
+                <ItemDetail dataToItemDetail={dataToShow} />
+            </div>
+        )
+    )
 }
 
 export default ItemDetailContainer;

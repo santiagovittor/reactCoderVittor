@@ -1,17 +1,17 @@
-import ItemCount from "../itemCount/ItemCount"
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Item = ({ dataToItem }) => {
-    console.log(dataToItem)
     return (
         <>
             <div className="itemContainer">
                 <h4>#{dataToItem.id}</h4>
-                <img src={dataToItem.imagen} alt="Soccer Shirt"></img>
+                <Link to={"/item/" + dataToItem.id}><img src={dataToItem.imagen} alt="Soccer Shirt"></img></Link>
                 <ul>
-                <h3>Camiseta {dataToItem.nombre} {dataToItem.kit}</h3>
-                <li>Precio: ${dataToItem.precio}</li>
+                    <h3>Camiseta {dataToItem.nombre} {dataToItem.kit}</h3>
+                    <li>Precio: ${dataToItem.precio}</li>
                 </ul>
-                <ItemCount stock={5} initial={1} onAdd={(cantidad) => { console.log(cantidad) }}></ItemCount>
+                <Link to={"/item/" + dataToItem.id}><Button id="detailsButton">Ver Detalles</Button></Link>
             </div>
 
         </>

@@ -1,11 +1,8 @@
 import React from "react";
-// 2) Tener la variable ReactDom en scope
 import ReactDOM from "react-dom";
-// 3) Tener un componente de React
 import App from "./App"
 
-// 4) Tener una función render corriendo
-ReactDOM.render(<App/>,document.querySelector("#root"))
+ReactDOM.render(<App />, document.querySelector("#root"))
 
 
 //1) Todos los componentes de React son funciones

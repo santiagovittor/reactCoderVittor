@@ -7,7 +7,7 @@
 html,
 body,
 #root {
-    background-color: #f8f9fa;
+    background-color: whitesmoke;
     min-height: 100vh;
 }
 
@@ -15,27 +15,86 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
-a:hover {
-    color: #000000;
-}
 
 ul {
     list-style-type: none;
 }
 
-#main-header {
-    font-family: "Andada Pro", serif;
-    color: white;
-    display: flex;
+header {
+    color: whitesmoke;
+    height: fit-content;
+    font-family: "Lobster", cursive;
     padding: 0.5rem 1rem;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #7d1f0c;
+    background-image: linear-gradient(
+        to top right,
+        rgb(125, 2, 2),
+        rgb(114, 2, 2),
+        rgb(103, 2, 3),
+        rgb(92, 3, 3),
+        rgb(81, 3, 3),
+        rgb(70, 3, 3),
+        rgb(60, 3, 4),
+        rgb(49, 3, 4),
+        rgb(38, 3, 4),
+        rgb(27, 4, 4),
+        rgb(16, 4, 5),
+        rgb(5, 4, 5)
+    );
     box-shadow: 0 2px 3px #a3b4a2;
 }
-#main-header:hover {
-    background-color: #5998c5;
-    transition: 1s;
+
+header:hover {
+    color: wheat;
+    transition: 0.5s;
+    filter: saturate(2);
+}
+
+header a:hover {
+    color: wheat;
+    transition: 0.5s;
+    text-shadow: 2vh 1vh 2vh black;
+}
+
+header a h1 {
+    font-size: 7vh;
+    filter: drop-shadow(1vh 1vh 1vh black);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.nav__categories {
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5vh;
+}
+
+.dropdown {
+    outline: none;
+}
+
+#dropdown-basic-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+#dropdown-basic-button:hover {
+    filter: saturate(1.5);
+    color: wheat;
+}
+
+.dropdown-item a {
+    color: black;
+}
+
+.dropdown-item a:hover {
+    color: rgb(114, 2, 2);
 }
 
 .loadingSpinnerContainer {
@@ -49,13 +108,53 @@ ul {
     margin-top: 3rem;
 }
 
+@media (max-width: 1000px) {
+    .itemList {
+        grid-template-columns: 33% 33% 33%;
+        transition: 1s;
+    }
+}
+
+@media (max-width: 750px) {
+    .itemList {
+        grid-template-columns: 50% 50%;
+        transition: 1s;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .nav__categories {
+        display: flex;
+        flex-direction: row;
+        font-size: 2vh;
+        padding: 4vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .itemList {
+        grid-template-columns: 100%;
+        transition: 1s;
+    }
+}
+
+.itemList img {
+    width: 70%;
+    height: 100%;
+}
+
+.itemList img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter: saturate(1.5);
+}
+
 .itemContainer {
     display: grid;
     width: 15rem;
     height: auto;
     font-family: "Andada Pro", serif;
-    border: 2.5px black ridge;
-    box-shadow: black 0 2px 3px;
+    box-shadow: rgb(39, 39, 39) 0.4vh 0.7vh 0.4vh;
     border-radius: 1em;
     margin: 1em auto;
     background-color: white;
@@ -66,14 +165,46 @@ ul {
         "producto"
         "producto"
         "producto"
-        "producto"
-        "cantidad"
-        "agregar";
+        "botonDetalles";
+}
+
+.itemContainer a img {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .itemContainer:hover {
     transform: scale(1.01);
     transition: 0.25s;
+    box-shadow: rgb(94, 93, 93) 1vh 1vh 1vh;
+}
+
+#detailsButton {
+    display: grid;
+    grid-area: botonDetalles;
+    margin: 0 auto 5vh auto;
+    background-image: linear-gradient(
+        to top right,
+        rgb(125, 2, 2),
+        rgb(114, 2, 2),
+        rgb(103, 2, 3),
+        rgb(92, 3, 3),
+        rgb(81, 3, 3),
+        rgb(70, 3, 3),
+        rgb(60, 3, 4),
+        rgb(49, 3, 4),
+        rgb(38, 3, 4),
+        rgb(27, 4, 4),
+        rgb(16, 4, 5),
+        rgb(5, 4, 5)
+    );
+    box-shadow: 0 2px 3px #a3b4a2;
+    border: none;
+    color: white;
+}
+#detailsButton:hover {
+    filter: saturate(2);
 }
 
 .itemContainer h3 {
@@ -106,6 +237,8 @@ ul {
     background-color: white;
     color: rgb(46, 46, 189);
     border: none;
+    width: 4vh;
+    height: 4vh;
     grid-area: botonSumar;
 }
 
@@ -134,52 +267,73 @@ ul {
     grid-area: contador;
 }
 
-#viewDetailsButton {
+#addToCartButton {
     display: grid;
-    background-color: #7d1f0c;
+    background-image: linear-gradient(
+        to top right,
+        rgb(125, 2, 2),
+        rgb(114, 2, 2),
+        rgb(103, 2, 3),
+        rgb(92, 3, 3),
+        rgb(81, 3, 3),
+        rgb(70, 3, 3),
+        rgb(60, 3, 4),
+        rgb(49, 3, 4),
+        rgb(38, 3, 4),
+        rgb(27, 4, 4),
+        rgb(16, 4, 5),
+        rgb(5, 4, 5)
+    );
+    box-shadow: 0 2px 3px #a3b4a2;
     border: none;
     width: auto;
     opacity: 0.8;
     margin-bottom: 6vh;
 }
-#viewDetailsButton:hover {
+#addToCartButton:hover {
     display: grid;
-    background-color: #7d1f0c;
+    filter: saturate(2);
     margin-bottom: 6vh;
     opacity: 1;
 }
 
 .itemDetailContainer {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 55% 45%;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 1000px) {
+    .itemDetailContainer {
+        grid-template-columns: 100%;
+    }
 }
 
 .itemDetailRightContainer {
     display: grid;
-    width: fit-content;
+    width: 70%;
     height: fit-content;
+    background-color: white;
     margin: 2rem;
-    border: 0.25rem #7d1f0c ridge;
     height: fit-content;
-    box-shadow: black 0 2px 3px;
+    box-shadow: rgb(36, 36, 36) 1vh 1.5vh 1vh;
     padding: 3rem;
     border-radius: 1em;
     place-content: center;
-    opacity: 0.7;
 }
 .itemDetailRightContainer:hover {
-    opacity: 1;
-    transition: 0.5s;
+    box-shadow: rgb(65, 65, 65) 1.5vh 2vh 1.5vh;
+    transition: 0.2s;
 }
 
 .itemDetailRightContainer h3 {
-    font-family: "Andada Pro", serif;
-    font-size: 2rem;
+    font-size: 1.75rem;
     padding-bottom: 1.1rem;
+    color: black;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
 }
 
 .itemDetailRightContainer p {
-    font-family: "Andada Pro", serif;
     font-size: 1.3rem;
     line-height: 2rem;
 }
@@ -187,17 +341,15 @@ ul {
 .itemDetailRightContainer img {
     width: 30rem;
     height: auto;
-    border: #7d1f0c ridge 0.4rem;
     border-radius: 1rem;
 }
 
 .itemDetailCardContainer {
     display: grid;
-    width: 80%;
+    width: 70%;
     height: fit-content;
-    font-family: "Andada Pro", serif;
-    border: 0.25rem #7d1f0c ridge;
-    box-shadow: black 0 2px 3px;
+    box-shadow: rgb(36, 36, 36) 1vh 1.5vh 1vh;
+    transition: 0.25s;
     border-radius: 1em;
     margin: 2rem;
     background-color: white;
@@ -211,8 +363,14 @@ ul {
         "agregar";
 }
 
+.itemDetailCardContainer:hover {
+    box-shadow: rgb(65, 65, 65) 1.5vh 2vh 1.5vh;
+    transition: 0.2s;
+}
+
 .itemDetailCardContainer h3 {
     color: #193a29;
+    font-weight: 600;
 }
 
 .itemDetailCardContainer img {
@@ -221,5 +379,6 @@ ul {
 
 .itemDetailCardContainer img:hover {
     transform: scale(1.1);
+    filter: saturate(1.5);
     transition: 0.5s;
 }
