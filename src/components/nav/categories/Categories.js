@@ -26,6 +26,17 @@ const Categories = () => {
                     <Dropdown.Item as="button"><NavLink to="/liga/mundial" >Mundial</NavLink></Dropdown.Item>
                     <Dropdown.Item as="button"><NavLink to="/liga/otros" >Otros</NavLink></Dropdown.Item>
                 </DropdownButton>
+                <DropdownButton id="dropdown-basic-button" title="Color">
+                    <Dropdown.Item as="button"><NavLink to="/color/amarillo" >Amarillo</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/azul" >Azul</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/blanco" >Blanco</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/bordeaux" >Bordeaux</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/celeste" >Celeste</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/negro" >Negro</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/rojo" >Rojo</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/verde" >Verde</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/violeta" >Violeta</NavLink></Dropdown.Item>
+                </DropdownButton>
             </div>
         </>
 

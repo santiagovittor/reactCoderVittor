@@ -62,7 +62,7 @@ header a h1 {
 
 nav {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: space-between;
     color: white;
@@ -120,14 +120,21 @@ nav {
         grid-template-columns: 50% 50%;
         transition: 1s;
     }
+    header a h1 {
+        font-size: 5vh;
+    }
+
     nav {
         flex-direction: column;
+        font-size: 1.5vh;
     }
     .nav__categories {
         display: flex;
-        flex-direction: row;
-        font-size: 2vh;
-        padding: 4vh;
+        flex-flow: row wrap;
+        padding: 2vh 8vh 2vh 8vh;
+    }
+    .nav__categories button {
+        font-size: 1.8vh;
     }
 }
 
@@ -136,10 +143,13 @@ nav {
         grid-template-columns: 100%;
         transition: 1s;
     }
+    header a h1 {
+        font-size: 4vh;
+    }
 }
 
 .itemList img {
-    width: 70%;
+    width: 80%;
     height: 100%;
 }
 
@@ -223,6 +233,13 @@ nav {
     grid-area: agregar;
 }
 
+.itemCard--bottom:hover {
+    display: grid;
+    filter: saturate(2);
+    opacity: 1;
+    transition: 0.5s;
+}
+
 #buttonSwitch {
     border-radius: 100%;
 }
@@ -288,13 +305,7 @@ nav {
     border: none;
     width: auto;
     opacity: 0.8;
-    margin-bottom: 6vh;
-}
-#addToCartButton:hover {
-    display: grid;
-    filter: saturate(2);
-    margin-bottom: 6vh;
-    opacity: 1;
+    margin-bottom: 0.5vh;
 }
 
 .itemDetailContainer {

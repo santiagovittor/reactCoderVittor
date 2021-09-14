@@ -1,8 +1,12 @@
 import ItemCount from "../itemCount/ItemCount";
-import { Form } from "react-bootstrap";
-import { Image } from "react-bootstrap";
+import { Form, Image, Button } from "react-bootstrap";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 const ItemDetail = ({ dataToItemDetail }) => {
+    const [buttonType, setButtonType] = useState(false)
+
     return (
         <>
             <div className="itemDetailCardContainer">
@@ -20,7 +24,15 @@ const ItemDetail = ({ dataToItemDetail }) => {
                         <option value="L">L</option>
                     </Form.Select>
                 </ul>
-                <ItemCount stock={5} initial={1} onAdd={(cantidad) => { console.log(cantidad + " " + "camisetas " + dataToItemDetail.nombre + " " + dataToItemDetail.kit + "= $" + (cantidad * dataToItemDetail.precio)) }}></ItemCount>
+                {
+                    buttonType === false ?
+                        <ItemCount stock={5} initial={1} calculate={(cantidad) => console.log("$" + (dataToItemDetail.precio) * cantidad)} onAdd={(cantidad) => console.log(cantidad + " " + dataToItemDetail.nombre)} handleButton={() => { setButtonType(value => !value) }}></ItemCount>
+                        :
+                        <>
+                            <Button id="addToCartButton" onClick={() => { setButtonType(value => !value) }}>Seguir comprando</Button>
+                            <Link to="/cart"><Button id="addToCartButton" variant="success">Terminar mi compra</Button></Link>
+                        </>
+                }
             </div>
             <div className="itemDetailRightContainer">
                 <Image src={dataToItemDetail.imagenDescripcion} fluid alt="Imagen de la camiseta siendo utilizada por el equipo durante ese año." />

@@ -1,6 +1,6 @@
 const CartWidget = () => {
     return (
-        <a href="index.html" className="material-icons">shopping_cart</a>
+        <a href="index.html" id="cartIcon" className="material-icons">shopping_cart</a>
     );
 }
 

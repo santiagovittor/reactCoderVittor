@@ -6,7 +6,7 @@ import { Spinner } from "react-bootstrap";
 
 
 const ItemDetailContainer = () => {
-    const downloadedData = "https://mocki.io/v1/33c051c1-4a72-45dc-bd47-f880787d47f2"
+    const downloadedData = "https://mocki.io/v1/2f9c5e3d-1341-4a8e-8598-197af0c9fba1"
     const [dataToShow, setDataToShow] = useState({});
     const { id } = useParams();
 

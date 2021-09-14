@@ -7,7 +7,7 @@
         "kit": "Titular",
         "temporada": 1998,
         "liga": "Inglaterra",
-        "color": [],
+        "color": "Rojo",
         "imagen": "https://www.footballkitarchive.com/images/2020/12/05/PaFxF1QWtEUyjzd/manchester-united-1998-99-home.jpg",
         "talla": [
             "40",
@@ -26,9 +26,7 @@
         "kit": "Titular",
         "temporada": 1990,
         "liga": "Italia",
-        "color": [
-            "Celeste"
-        ],
+        "color": "Celeste",
         "imagen": "https://www.footballkitarchive.com/images/2020/01/tQru7N9ndM93bqA/lazio-1990-91-home.jpg",
         "talla": [
             "38"
@@ -45,9 +43,7 @@
         "kit": "Titular",
         "temporada": 1996,
         "liga": "Argentina",
-        "color": [
-            "Blanco"
-        ],
+        "color": "Rojo",
         "imagen": "https://cdn.footballkitarchive.com/2021/02/19/p9tUg5tbO87F6z4.jpg",
         "talla": [
             "46"
@@ -64,9 +60,7 @@
         "kit": "Titular",
         "temporada": 2002,
         "liga": "Mundial",
-        "color": [
-            "Negro"
-        ],
+        "color": "Amarillo",
         "imagen": "https://www.footballkitarchive.com/images/2020/10/01/h8q9smzcbeTUe5g/brazil-2002-home.jpg",
         "talla": [
             "42",
@@ -84,9 +78,7 @@
         "kit": "Titular",
         "temporada": 2003,
         "liga": "Francia",
-        "Color": [
-            "Rojo"
-        ],
+        "color": "Rojo",
         "imagen": "https://www.footballkitarchive.com/images/2020/12/17/fqGXcjHIKT5zOqG/as-monaco-2003-04-home.jpg",
         "Talla": [
             "40",
@@ -104,9 +96,7 @@
         "kit": "Titular",
         "temporada": 1996,
         "liga": "Italia",
-        "color": [
-            "Rojo"
-        ],
+        "color": "Rojo",
         "imagen": "https://www.footballkitarchive.com/images/2019/06/Gxk0fr01mM3xCJG/ac-milan-1996-97-home.jpg",
         "Talla": [
             "40",
@@ -124,9 +114,7 @@
         "kit": "Titular",
         "temporada": 1998,
         "liga": "Mundial",
-        "color": [
-            "Azul"
-        ],
+        "color": "Azul",
         "imagen": "https://www.footballkitarchive.com/images/2019/10/oatp1bC1MgNZPEy/france-1998-home.jpg",
         "talla": [
             "40",
@@ -144,9 +132,7 @@
         "kit": "Titular",
         "temporada": 2005,
         "liga": "Inglaterra",
-        "color": [
-            "Bordeaux"
-        ],
+        "color": "Bordeaux",
         "imagen": "https://www.footballkitarchive.com/images/2020/12/02/FXRKgEXC02tp7mQ/arsenal-fc-2005-06-home.jpg",
         "talla": [
             "40",
@@ -164,9 +150,7 @@
         "kit": "Titular",
         "temporada": 1997,
         "liga": "España",
-        "color": [
-            "Rojo"
-        ],
+        "color": "Azul",
         "imagen": "https://www.footballkitarchive.com/images/2020/11/24/5MNFs1Pjf5fa5Qu/fc-barcelona-1997-98-home.jpg",
         "talla": [
             "40",
@@ -184,9 +168,7 @@
         "categoria": "Clubes",
         "kit": "Suplente",
         "liga": "España",
-        "color": [
-            "Violeta"
-        ],
+        "color": "Violeta",
         "imagen": "https://www.footballkitarchive.com/images/2019/06/0Fb8og8arFNR3yg/real-madrid-1995-96-away.jpg",
         "talla": [
             "40",
@@ -204,9 +186,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "Holanda",
-        "color": [
-            "Rojo"
-        ],
+        "color": "Rojo",
         "imagen": "https://www.footballkitarchive.com/images/2019/06/BCpOB9SBhXfVQXo/ajax-amsterdam-1994-95-home.jpg",
         "talla": [
             "40",
@@ -224,9 +204,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "Francia",
-        "color": [
-            "Azul"
-        ],
+        "color": "Azul",
         "imagen": "https://www.footballkitarchive.com/images/2019/06/35i7sYW2MCORlZB/paris-saint-germain-1998-99-home.jpg",
         "talla": [
             "40",
@@ -244,9 +222,7 @@
         "categoria": "Clubes",
         "kit": "Suplente",
         "liga": "España",
-        "color": [
-            "Naranja"
-        ],
+        "color": "Naranja",
         "imagen": "https://www.footballkitarchive.com/images/2019/06/t2qapoZ6kFxvp9v/valencia-2001-02-away.jpg",
         "talla": [
             "40",
@@ -264,9 +240,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "Francia",
-        "color": [
-            "Blanca"
-        ],
+        "color": "Blanco",
         "imagen": "https://cdn.footballkitarchive.com/2021/04/05/SxtGOvuF8ZFSSWq.jpg",
         "talla": [
             "40",
@@ -284,9 +258,7 @@
         "categoria": "Clubes",
         "kit": "Suplente",
         "liga": "Argentina",
-        "color": [
-            "Blanco"
-        ],
+        "color": "Blanco",
         "imagen": "https://www.footballkitarchive.com/images/2020/01/9GQp5SP3YLb0uB8/boca-juniors-1995-96-away.jpg",
         "talla": [
             "40",
@@ -304,9 +276,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "Italia",
-        "color": [
-            "Amarillo"
-        ],
+        "color": "Amarillo",
         "imagen": "https://www.footballkitarchive.com/images/2021/05/04/WSjFBls9JsQuXdr/parma-1999-00-home.jpg",
         "talla": [
             "40",
@@ -324,9 +294,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "Alemania",
-        "color": [
-            "Rojo"
-        ],
+        "color": "Rojo",
         "imagen": "https://www.footballkitarchive.com/images/2021/05/09/5K7Rqh3PDij1Upn/bayern-munchen-1994-95-home.jpg",
         "talla": [
             "40",
@@ -344,9 +312,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "Alemania",
-        "color": [
-            "Rojo"
-        ],
+        "color": "Rojo",
         "imagen": "https://www.footballkitarchive.com/images/2020/05/H9LeibdX9sve5tq/bayer-04-leverkusen-1997-98-home.jpg",
         "talla": [
             "40",
@@ -364,9 +330,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "Italia",
-        "color": [
-            "Rojo"
-        ],
+        "color": "Negro",
         "imagen": "https://www.footballkitarchive.com/images/2019/06/OITEg3TOOuhar5F/juventus-fc-1998-99-home.jpg",
         "talla": [
             "40",
@@ -384,9 +348,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "Brasil",
-        "color": [
-            "Blanco"
-        ],
+        "color": "Azul",
         "imagen": "https://cdn.footballkitarchive.com/2020/12/23/j6y19AFPTauVlk9.jpg",
         "talla": [
             "40",
@@ -404,9 +366,7 @@
         "categoria": "Clubes",
         "kit": "Suplente",
         "liga": "España",
-        "color": [
-            "Azul"
-        ],
+        "color": "Azul",
         "imagen": "https://www.footballkitarchive.com/images/2019/06/dftOAVlaSfh1CGp/atletico-madrid-1995-96-away.jpg",
         "talla": [
             "40",
@@ -424,9 +384,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "España",
-        "color": [
-            "Azul"
-        ],
+        "color": "Verde",
         "imagen": "https://cdn.footballkitarchive.com/2020/12/16/lmrxgOlaoY03pOq.jpg",
         "talla": [
             "40",
@@ -444,9 +402,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "Italia",
-        "color": [
-            "Violeta"
-        ],
+        "color": "Violeta",
         "imagen": "https://www.footballkitarchive.com/images/2020/01/8wmeNhqkiSJZEa6/fiorentina-1997-98-home.jpg",
         "talla": [
             "40",
@@ -464,9 +420,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "Inglaterra",
-        "color": [
-            "Bordeaux"
-        ],
+        "color": "Bordeaux",
         "imagen": "https://www.footballkitarchive.com/images/2019/09/tnuLsysBD0XHUEN/west-ham-1998-99-home.jpg",
         "talla": [
             "40",
@@ -484,9 +438,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "Alemania",
-        "color": [
-            "Amarillo"
-        ],
+        "color": "Amarillo",
         "imagen": "https://www.footballkitarchive.com/images/2019/06/jpIskVjHTDWQ9X9/borussia-dortmund-1997-98-home.jpg",
         "talla": [
             "40",
@@ -504,9 +456,7 @@
         "categoria": "Clubes",
         "kit": "Titular",
         "liga": "Alemania",
-        "color": [
-            "Amarillo"
-        ],
+        "color": "Amarillo",
         "imagen": "https://cdn.footballkitarchive.com/2021/04/11/oRKJ5udLnxXlOL7.jpg",
         "talla": [
             "40",
@@ -524,9 +474,7 @@
         "categoria": "Paises",
         "kit": "Titular",
         "liga": "Mundial",
-        "color": [
-            "Azul"
-        ],
+        "color": "Azul",
         "imagen": "https://cdn.footballkitarchive.com/2020/10/03/tJu8cmqjwuFtRee.jpg",
         "talla": [
             "40",
@@ -544,9 +492,7 @@
         "categoria": "Paises",
         "kit": "Local",
         "liga": "Mundial",
-        "color": [
-            "Azul"
-        ],
+        "color": "Azul",  
         "imagen": "https://cdn.footballkitarchive.com/2020/10/02/WUKma4p9QQND0AS.jpg",
         "talla": [
             "40",
@@ -564,9 +510,7 @@
         "categoria": "Paises",
         "kit": "Visitante",
         "liga": "Mundial",
-        "color": [
-            "Azul"
-        ],
+        "color": "Azul",
         "imagen": "https://cdn.footballkitarchive.com/2020/10/02/1wzMyAMPt5rKMm7.jpg",
         "talla": [
             "40",
@@ -584,9 +528,7 @@
         "categoria": "Paises",
         "kit": "Local",
         "liga": "Mundial",
-        "color": [
-            "Verde"
-        ],
+        "color": "Verde",
         "imagen": "https://cdn.footballkitarchive.com/2020/10/02/cCIv7aaD0Z0oze0.jpg",
         "talla": [
             "40",
@@ -604,9 +546,7 @@
         "categoria": "Paises",
         "kit": "Local",
         "liga": "Mundial",
-        "color": [
-            "Celeste"
-        ],
+        "color": "Celeste",
         "imagen": "https://cdn.footballkitarchive.com/2020/10/03/OoiFzLm1ynEcUld.jpg",
         "talla": [
             "40",
@@ -624,9 +564,7 @@
         "categoria": "Paises",
         "kit": "Visitante",
         "liga": "Mundial",
-        "color": [
-            "Azul"
-        ],
+        "color": "Azul",
         "imagen": "https://cdn.footballkitarchive.com/2020/09/30/zM2wkPqf5DfPaA0.jpg",
         "talla": [
             "40",
@@ -642,11 +580,9 @@
         "precio": 9500,
         "temporada": 1998,
         "categoria": "Paises",
-        "kit": "Visitante",
+        "kit": "Local",
         "liga": "Mundial",
-        "color": [
-            "Rojo"
-        ],
+        "color": "Blanco",
         "imagen": "https://cdn.footballkitarchive.com/2019/10/OabUUwsZ6SmTSwO.jpg",
         "talla": [
             "40",
@@ -664,9 +600,7 @@
         "categoria": "Clubes",
         "kit": "Local",
         "liga": "Italia",
-        "color": [
-            "Azul"
-        ],
+        "color": "Azul",
         "imagen": "https://cdn.footballkitarchive.com/2021/05/04/cQyLLtMhq5LQBhZ.jpg",
         "talla": [
             "40",
@@ -684,9 +618,7 @@
         "categoria": "Clubes",
         "kit": "Local",
         "liga": "Inglaterra",
-        "color": [
-            "Azul"
-        ],
+        "color": "Azul",
         "imagen": "https://cdn.footballkitarchive.com/2021/01/26/lWp0I2lU7YptRu6.jpg",
         "talla": [
             "40",
@@ -694,6 +626,24 @@
         ],
         "imagenDescripcion": "https://images.daznservices.com/di/library/GOAL/a5/37/chelsea-champions-league-2008_jdgs2wbv8r5g1n7l2vksrcer2.jpg?t=-415759678&quality=60&w=1280",
         "descripcion": "Esta temporada, los blues se quedaron en la puerta de su primer Champions League, cayendo en la final ante el Manchester United de Cristiano Ronaldo en definición por penales. Petr Cech, John Terry, Frank Lampard y Didier Drogba son algunos de los ilustres jugadores en vestir esta camiseta.",
+        "disponible": true
+    },
+    {
+        "id": "38",
+        "nombre": "Alemania",
+        "precio": 16500,
+        "temporada": 1990,
+        "categoria": "Paises",
+        "kit": "Visitante",
+        "liga": "Mundial",
+        "color": "Verde",
+        "imagen": "https://cdn.footballkitarchive.com/2020/11/14/Y37W3Yaf76zhvjp.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://lh3.googleusercontent.com/-etZhV6kkHm8/SoLE5b1L9ZI/AAAAAAAAG0s/lBMfAuKPY30/s800/118900S.jpg",
+        "descripcion": "Alemania Federal se llevó el Mundial de Italia 1990 derrotando por 1-0 a Argentina en la final. Se trató de la última competencia en la que participaron con ese nombre luego de la reunificación. Participaron de este gran equipo jugadores como Rudi Völler (quien fué el goleador del equipo con 6 tantos) y Lothar Matthäus, y fueron dirigidos por el legendario Franz Beckenbauer.",
         "disponible": true
     }
 ]
