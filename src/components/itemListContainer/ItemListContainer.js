@@ -5,12 +5,11 @@ import { Spinner } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 
 
-const URL_PRODUCTOS_API = 'https://mocki.io/v1/2f9c5e3d-1341-4a8e-8598-197af0c9fba1'
+const URL_PRODUCTOS_API = 'https://mocki.io/v1/58618315-41bb-4b5f-806e-c81b4d06ee03'
 
 const ItemListContainer = () => {
     const [dataToShow, setDataToShow] = useState([]);
     const { id } = useParams();
-
 
     useEffect(() => {
         switch (id) {

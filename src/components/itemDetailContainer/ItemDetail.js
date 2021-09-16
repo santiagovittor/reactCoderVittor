@@ -1,14 +1,29 @@
 import ItemCount from "../itemCount/ItemCount";
 import { Form, Image, Button } from "react-bootstrap";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
+import { context } from "../../context/CartContext";
 
 
 const ItemDetail = ({ dataToItemDetail }) => {
     const [buttonType, setButtonType] = useState(false)
 
+    const { addProduct, removeProduct } = useContext(context)
+
+    const onAdd = (cantidad) => {
+        const productToAdd = { ...dataToItemDetail, cantidad }
+        addProduct(productToAdd, cantidad)
+    }
+
+    const onRemove = () => {
+        const productToRemove = { ...dataToItemDetail }
+        removeProduct(productToRemove)
+    }
+
     return (
+
         <>
+
             <div className="itemDetailCardContainer">
                 <h4>#{dataToItemDetail.id}</h4>
                 <Image src={dataToItemDetail.imagen} alt="Soccer Shirt" fluid />
@@ -26,7 +41,7 @@ const ItemDetail = ({ dataToItemDetail }) => {
                 </ul>
                 {
                     buttonType === false ?
-                        <ItemCount stock={5} initial={1} calculate={(cantidad) => console.log("$" + (dataToItemDetail.precio) * cantidad)} onAdd={(cantidad) => console.log(cantidad + " " + dataToItemDetail.nombre)} handleButton={() => { setButtonType(value => !value) }}></ItemCount>
+                        <ItemCount stock={dataToItemDetail.stock} initial={1} onRemove={onRemove} onAdd={onAdd} handleButton={() => { setButtonType(value => !value) }}></ItemCount>
                         :
                         <>
                             <Button id="addToCartButton" onClick={() => { setButtonType(value => !value) }}>Seguir comprando</Button>

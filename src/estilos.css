@@ -121,7 +121,7 @@ nav {
         transition: 1s;
     }
     header a h1 {
-        font-size: 5vh;
+        font-size: 7vh;
     }
 
     nav {
@@ -144,7 +144,14 @@ nav {
         transition: 1s;
     }
     header a h1 {
-        font-size: 4vh;
+        font-size: 6vh;
+    }
+    .itemDetailCardContainer {
+        grid-gap: 0;
+        margin-left: auto;
+    }
+    .itemDetailCardContainer .img-fluid {
+        width: 75%;
     }
 }
 
