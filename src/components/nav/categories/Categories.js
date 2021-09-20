@@ -6,17 +6,17 @@ const Categories = () => {
     return (
         <>
             <div className="nav__categories">
-                <DropdownButton id="dropdown-basic-button" title="Categorias">
+                <DropdownButton id="dropdown-basic-button" title="CATEGORIAS">
                     <Dropdown.Item as="button"><NavLink to="/categoria/paises">Paises</NavLink></Dropdown.Item>
                     <Dropdown.Item as="button"><NavLink to="/categoria/clubes">Clubes</NavLink></Dropdown.Item>
                 </DropdownButton>
-                <DropdownButton id="dropdown-basic-button" title="Temporada">
+                <DropdownButton id="dropdown-basic-button" title="TEMPORADA">
                     <Dropdown.Item as="button"><NavLink to="/temporada/70s" >70s</NavLink></Dropdown.Item>
                     <Dropdown.Item as="button"><NavLink to="/temporada/80s" >80s</NavLink></Dropdown.Item>
                     <Dropdown.Item as="button"><NavLink to="/temporada/90s" >90s</NavLink></Dropdown.Item>
                     <Dropdown.Item as="button"><NavLink to="/temporada/2000s" >2000s</NavLink></Dropdown.Item>
                 </DropdownButton>
-                <DropdownButton id="dropdown-basic-button" title="Liga">
+                <DropdownButton id="dropdown-basic-button" title="LIGA">
                     <Dropdown.Item as="button"><NavLink to="/liga/españa" >España</NavLink></Dropdown.Item>
                     <Dropdown.Item as="button"><NavLink to="/liga/italia" >Italia</NavLink></Dropdown.Item>
                     <Dropdown.Item as="button"><NavLink to="/liga/alemania" >Alemania</NavLink></Dropdown.Item>
@@ -26,7 +26,7 @@ const Categories = () => {
                     <Dropdown.Item as="button"><NavLink to="/liga/mundial" >Mundial</NavLink></Dropdown.Item>
                     <Dropdown.Item as="button"><NavLink to="/liga/otros" >Otros</NavLink></Dropdown.Item>
                 </DropdownButton>
-                <DropdownButton id="dropdown-basic-button" title="Color">
+                <DropdownButton id="dropdown-basic-button" title="COLOR">
                     <Dropdown.Item as="button"><NavLink to="/color/amarillo" >Amarillo</NavLink></Dropdown.Item>
                     <Dropdown.Item as="button"><NavLink to="/color/azul" >Azul</NavLink></Dropdown.Item>
                     <Dropdown.Item as="button"><NavLink to="/color/blanco" >Blanco</NavLink></Dropdown.Item>

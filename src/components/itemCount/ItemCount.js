@@ -1,7 +1,7 @@
 import { Fragment, useState } from "react"
 import { Button } from "react-bootstrap"
 
-const ItemCount = ({ stock, initial, onAdd, handleButton, onRemove }) => {
+const ItemCount = ({ stock, initial, onAdd, handleButton }) => {
     let [counter, setCounter] = useState(initial)
     const sumar = () => {
         if (counter < stock) {
@@ -36,7 +36,6 @@ const ItemCount = ({ stock, initial, onAdd, handleButton, onRemove }) => {
             {stock ?
                 <div className="itemCard--bottom">
                     <Button id="addToCartButton" onClick={addItems}>Agregar al carrito</Button>
-                    <Button id="addToCartButton" onClick={onRemove}>Quitar del carrito</Button>
                 </div>
                 :
                 <p>Este item se encuentra sin stock actualmente.</p>

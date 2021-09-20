@@ -1,4 +1,3 @@
-import NavBar from "./components/nav/NavBar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./estilos.css"
 import ItemListContainer from "./components/itemListContainer/ItemListContainer"
@@ -6,6 +5,7 @@ import ItemDetailContainer from "./components/itemDetailContainer/ItemDetailCont
 import Cart from "./components/cart/Cart";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import CustomProvider from "./context/CartContext";
+import LandingPage from "./components/landingPage/LandingPage";
 
 
 
@@ -13,9 +13,9 @@ const App = () => {
     return (
         <BrowserRouter>
             <CustomProvider>
-                <NavBar />
                 <Switch>
-                    <Route path="/" component={ItemListContainer} exact />
+                    <Route path="/" component={LandingPage} exact/>
+                    <Route path="/shop" component={ItemListContainer} exact />
                     <Route path="/categoria/:id" component={ItemListContainer} />
                     <Route path="/temporada/:id" component={ItemListContainer} />
                     <Route path="/liga/:id" component={ItemListContainer} />

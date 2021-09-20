@@ -1,8 +1,12 @@
 # theFootballStore E-commerce for CoderHouse
 
-Este proyecto creado con Create React App es desarrollado siguiendo los lineamientos del curso de ReactJS. Esta pre-entrega abarca los contenidos cursados hasta la clase número 8 - 'Routing y Navegación'.
+Este proyecto creado con Create React App es desarrollado siguiendo los lineamientos del curso de ReactJS. Esta pre-entrega abarca los contenidos cursados hasta la clase número 11- 'Técnicas de rendering'.
+
+
 Simulé la existencia de un e-commerce de venta de camisetas de fútbol clásicas, utilizando productos que fueron editados por mi y subidos desde un archivo JSON a la web [Mocki](https://mocki.io) y trayendolos a través de un fetch en los componentes ItemListContainer -donde existe la posibilidad de filtrar por categorías, temporada y liga- e ItemDetailContainer -en el que se puede acceder a visualizar un detalle mas exhaustivo del producto-.
 La mayoría de las imagenes del sitio fueron obtenidas de la web [Football Kit Archive](https://www.footballkitarchive.com/), así como también la información correspondiente al kit mostrado. No así los copys del detalle titulado 'un poco de historia' que fueron de mi autoría.
+
+
 Se instaló la dependencia React-Bootstrap para dar estilo al sitio.
 
 

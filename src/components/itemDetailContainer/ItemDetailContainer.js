@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import ItemDetail from "./ItemDetail"
+import NavBar from "../nav/NavBar";
 import { useParams } from "react-router-dom";
 import { Spinner } from "react-bootstrap";
 
@@ -27,9 +28,12 @@ const ItemDetailContainer = () => {
                 </Spinner>
             </div>
         ) : (
+            <>
+            <NavBar />
             <div className="itemDetailContainer">
                 <ItemDetail dataToItemDetail={dataToShow} />
             </div>
+            </>
         )
     )
 }

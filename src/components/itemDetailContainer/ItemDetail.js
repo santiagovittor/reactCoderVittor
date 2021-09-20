@@ -8,16 +8,11 @@ import { context } from "../../context/CartContext";
 const ItemDetail = ({ dataToItemDetail }) => {
     const [buttonType, setButtonType] = useState(false)
 
-    const { addProduct, removeProduct } = useContext(context)
+    const { addProduct } = useContext(context)
 
     const onAdd = (cantidad) => {
         const productToAdd = { ...dataToItemDetail, cantidad }
         addProduct(productToAdd, cantidad)
-    }
-
-    const onRemove = () => {
-        const productToRemove = { ...dataToItemDetail }
-        removeProduct(productToRemove)
     }
 
     return (
@@ -41,7 +36,7 @@ const ItemDetail = ({ dataToItemDetail }) => {
                 </ul>
                 {
                     buttonType === false ?
-                        <ItemCount stock={dataToItemDetail.stock} initial={1} onRemove={onRemove} onAdd={onAdd} handleButton={() => { setButtonType(value => !value) }}></ItemCount>
+                        <ItemCount stock={dataToItemDetail.stock} initial={1} onAdd={onAdd} handleButton={() => { setButtonType(value => !value) }}></ItemCount>
                         :
                         <>
                             <Button id="addToCartButton" onClick={() => { setButtonType(value => !value) }}>Seguir comprando</Button>

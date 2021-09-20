@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import ItemList from "./ItemList";
 import { Spinner } from "react-bootstrap";
 import { useParams } from "react-router-dom";
-
+import NavBar from "../nav/NavBar";
 
 const URL_PRODUCTOS_API = 'https://mocki.io/v1/58618315-41bb-4b5f-806e-c81b4d06ee03'
 
@@ -228,7 +228,7 @@ const ItemListContainer = () => {
                     .then((response) => {
                         let aux = response.filter(response => response.disponible)
                         setDataToShow(aux);
-                    }), 1000
+                    }), 2000
                 );
         }
     }, [id]);
@@ -242,9 +242,12 @@ const ItemListContainer = () => {
                 </Spinner>
             </div>
         ) : (
+            <>
+            <NavBar />
             <div className="itemList">
                 <ItemList dataToItemList={dataToShow} />
             </div>
+            </>
         )
 
     )
