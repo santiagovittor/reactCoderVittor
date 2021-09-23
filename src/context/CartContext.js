@@ -14,12 +14,12 @@ const CustomProvider = ({ children }) => {
             newCart.forEach((element) => {
                 element.cantidad += cantidad
             })
-            setCart(newCart)
+            setCart([...newCart])
             console.log(newCart)
         }
         else {
             const newCart = [...cart, producto]
-            setCart(newCart)
+            setCart([...newCart])
             console.log(newCart)
         }
     }
@@ -27,7 +27,7 @@ const CustomProvider = ({ children }) => {
     const removeProduct = (itemId) => {
         if (isInCart(itemId.id)) {
             const newCart = cart.filter(producto => producto.id !== itemId.id)
-            setCart(newCart)
+            setCart([...newCart])
             console.log(newCart)
         } else {
             console.log("Este item no está en el carrito")

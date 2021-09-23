@@ -7,8 +7,8 @@ const Categories = () => {
         <>
             <div className="nav__categories">
                 <DropdownButton id="dropdown-basic-button" title="CATEGORIAS">
-                    <Dropdown.Item as="button"><NavLink to="/categoria/paises">Paises</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/categoria/clubes">Clubes</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/categoria/Paises">Paises</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/categoria/Clubes">Clubes</NavLink></Dropdown.Item>
                 </DropdownButton>
                 <DropdownButton id="dropdown-basic-button" title="TEMPORADA">
                     <Dropdown.Item as="button"><NavLink to="/temporada/70s" >70s</NavLink></Dropdown.Item>
@@ -17,25 +17,25 @@ const Categories = () => {
                     <Dropdown.Item as="button"><NavLink to="/temporada/2000s" >2000s</NavLink></Dropdown.Item>
                 </DropdownButton>
                 <DropdownButton id="dropdown-basic-button" title="LIGA">
-                    <Dropdown.Item as="button"><NavLink to="/liga/españa" >España</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/liga/italia" >Italia</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/liga/alemania" >Alemania</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/liga/inglaterra" >Inglaterra</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/liga/francia" >Francia</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/liga/argentina" >Argentina</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/liga/mundial" >Mundial</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/liga/otros" >Otros</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/liga/España" >España</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/liga/Italia" >Italia</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/liga/Alemania" >Alemania</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/liga/Inglaterra" >Inglaterra</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/liga/Francia" >Francia</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/liga/Argentina" >Argentina</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/liga/Mundial" >Mundial</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/liga/Otros" >Otros</NavLink></Dropdown.Item>
                 </DropdownButton>
                 <DropdownButton id="dropdown-basic-button" title="COLOR">
-                    <Dropdown.Item as="button"><NavLink to="/color/amarillo" >Amarillo</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/color/azul" >Azul</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/color/blanco" >Blanco</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/color/bordeaux" >Bordeaux</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/color/celeste" >Celeste</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/color/negro" >Negro</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/color/rojo" >Rojo</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/color/verde" >Verde</NavLink></Dropdown.Item>
-                    <Dropdown.Item as="button"><NavLink to="/color/violeta" >Violeta</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/Amarillo" >Amarillo</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/Azul" >Azul</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/Blanco" >Blanco</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/Bordeaux" >Bordeaux</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/Celeste" >Celeste</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/Negro" >Negro</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/Rojo" >Rojo</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/Verde" >Verde</NavLink></Dropdown.Item>
+                    <Dropdown.Item as="button"><NavLink to="/color/Violeta" >Violeta</NavLink></Dropdown.Item>
                 </DropdownButton>
             </div>
         </>

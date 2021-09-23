@@ -3,36 +3,45 @@ import { useEffect } from "react";
 import ItemDetail from "./ItemDetail"
 import NavBar from "../nav/NavBar";
 import { useParams } from "react-router-dom";
-import { Spinner } from "react-bootstrap";
-
+import CustomSpinner from "../Spinner";
+import { firestore } from "../../firebase";
 
 const ItemDetailContainer = () => {
-    const downloadedData = "https://mocki.io/v1/58618315-41bb-4b5f-806e-c81b4d06ee03"
     const [dataToShow, setDataToShow] = useState({});
     const { id } = useParams();
 
     useEffect(() => {
-        fetch(downloadedData)
-            .then(response => response.json())
-            .then((data) => {
-                const aux = data.find(data => data.id === id)
-                setDataToShow(aux);
-            }
-            )
+
+        const db = firestore;
+        const collection = db.collection("productos")
+
+        let query = collection.doc(id)
+        query = query.get()
+
+        query
+            .then((snapshot) => {
+                const obtainedItem = snapshot.data()
+                console.log(obtainedItem)
+                setDataToShow(obtainedItem)
+            })
+            .catch((error) => {
+                console.log(error)
+            })
+
+
+
     }, [id]);
     return (
         dataToShow.length === 0 ? (
             <div className="loadingSpinnerContainer">
-                <Spinner animation="border" role="status">
-                    <span className="visually-hidden">Cargando...</span>
-                </Spinner>
+                <CustomSpinner></CustomSpinner>
             </div>
         ) : (
             <>
-            <NavBar />
-            <div className="itemDetailContainer">
-                <ItemDetail dataToItemDetail={dataToShow} />
-            </div>
+                <NavBar />
+                <div className="itemDetailContainer">
+                    <ItemDetail dataToItemDetail={dataToShow} />
+                </div>
             </>
         )
     )
