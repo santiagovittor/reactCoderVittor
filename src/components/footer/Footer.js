@@ -19,7 +19,7 @@ const Footer = () => {
                             <h3 className="mt-lg-0 mt-sm-3">Enlaces</h3>
                             <ul className="m-0 p-0">
                                 <li onClick={scrollToTop}>Ir arriba</li>
-                                <Link to="/cart"><li>Ver carrito</li></Link>
+                                <Link to="/cart"><li onClick={scrollToTop}>Ver carrito</li></Link>
                             </ul>
                         </div>
                         <div className="col-lg-4 col-xs-12 location">

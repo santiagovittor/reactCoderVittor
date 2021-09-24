@@ -5,6 +5,7 @@ import NavBar from "../nav/NavBar";
 import { useParams } from "react-router-dom";
 import CustomSpinner from "../Spinner";
 import { firestore } from "../../firebase";
+import Footer from "../footer/Footer";
 
 const ItemDetailContainer = () => {
     const [dataToShow, setDataToShow] = useState({});
@@ -42,6 +43,7 @@ const ItemDetailContainer = () => {
                 <div className="itemDetailContainer">
                     <ItemDetail dataToItemDetail={dataToShow} />
                 </div>
+                <Footer/>
             </>
         )
     )
