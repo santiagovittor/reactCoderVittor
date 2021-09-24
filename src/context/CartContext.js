@@ -9,7 +9,7 @@ const CustomProvider = ({ children }) => {
     const [cart, setCart] = useState([])
 
     const addProduct = (producto, cantidad) => {
-        if (isInCart(producto.id)) {
+        if (isInCart(producto.itemId)) {
             const newCart = [...cart]
             newCart.forEach((element) => {
                 element.cantidad += cantidad
@@ -24,9 +24,9 @@ const CustomProvider = ({ children }) => {
         }
     }
 
-    const removeProduct = (itemId) => {
-        if (isInCart(itemId.id)) {
-            const newCart = cart.filter(producto => producto.id !== itemId.id)
+    const removeProduct = (cartItem) => {
+        if (isInCart(cartItem.itemId)) {
+            const newCart = cart.filter(producto => producto.itemId !== cartItem.itemId)
             setCart([...newCart])
             console.log(newCart)
         } else {
@@ -39,7 +39,7 @@ const CustomProvider = ({ children }) => {
     }
 
     const isInCart = (id) => {
-        return cart.find(producto => producto.id === id)
+        return cart.find(producto => producto.itemId === id)
     }
 
 

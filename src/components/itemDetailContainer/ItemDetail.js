@@ -20,7 +20,7 @@ const ItemDetail = ({ dataToItemDetail }) => {
         <>
 
             <div className="itemDetailCardContainer">
-                <h4>#{dataToItemDetail.id}</h4>
+                <h4>#{dataToItemDetail.itemId}</h4>
                 <Image src={dataToItemDetail.imagen} alt="Soccer Shirt" fluid />
                 <ul>
                     <h3>Camiseta {dataToItemDetail.nombre} {dataToItemDetail.kit}</h3>

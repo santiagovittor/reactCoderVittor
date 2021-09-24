@@ -8,7 +8,6 @@ import CustomProvider from "./context/CartContext";
 import LandingPage from "./components/landingPage/LandingPage";
 
 
-
 const App = () => {
     return (
         <BrowserRouter>

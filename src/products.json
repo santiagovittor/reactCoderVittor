@@ -569,6 +569,25 @@
         "disponible": true
     },
     {
+        "id": "32",
+        "nombre": "Independiente",
+        "precio": 13500,
+        "temporada": 2019,
+        "categoria": "Clubes",
+        "kit": "Local",
+        "liga": "Argentina",
+        "color": "Rojo",
+        "imagen": "https://cdn.footballkitarchive.com/2021/01/09/V12C8fXGbRCD1Li.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://www.infiernorojo.com/independiente/imagenes/2013/04/Fredes-10.jpg",
+        "descripcion": "Si bien este plantel no tuvo la suerte de contar con el talentoso enganche, estamos seguros que hubiera lucido la diez con holgura como siempre lo hizo. En la foto, Hernan Fredes, talento rojo.",
+        "stock": 10,
+        "disponible": true
+    },
+    {
         "id": "33",
         "nombre": "Argentina",
         "precio": 16500,
@@ -641,6 +660,7 @@
         ],
         "imagenDescripcion": "https://sempreinter.com/wp-content/uploads/2018/11/Inter-1988-89-1024x699.jpg",
         "descripcion": "Luego de casi 10 años el Inter volvió a levantar el trofeo de Serie A bajo la conducción de Giovanni Trapattoni. Este plantel contaba con jugadores como Andreas Brehme(quién dos años después sería el verdugo de Argentina en la final de Italia 1990), Lothar Matthäus y Ramón Diaz.",
+        "stock":11,
         "disponible": true
     },
     {

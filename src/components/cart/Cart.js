@@ -4,7 +4,7 @@ import { context } from "../../context/CartContext";
 import ItemCart from "./ItemCart";
 import { Button, Image } from "react-bootstrap";
 import NavBar from "../nav/NavBar";
-
+import Footer from "../footer/Footer";
 
 const Cart = () => {
 
@@ -21,7 +21,7 @@ const Cart = () => {
     })
 
     const mapCart = cart.map((product) => (
-        <ItemCart key={product.id} onRemove={removeProduct} onEmpty={vaciarCarrito} dataToItemCart={product}></ItemCart>
+        <ItemCart key={product.itemId} onRemove={removeProduct} onEmpty={vaciarCarrito} dataToItemCart={product}></ItemCart>
     ))
     return cart.length === 0 ? (
         <>
@@ -31,6 +31,7 @@ const Cart = () => {
                 <Image src="https://previews.123rf.com/images/studiostoks/studiostoks1602/studiostoks160200045/51904057-vaya-estilo-del-arte-pop-retro-mujer-sorprendida-concepto-de-negocio-noticias-inesperadas.jpg" alt="oops" />
                 <Link to="/shop"><Button id="addToCartButton">Volver a inicio</Button></Link>
             </div>
+            <Footer/>
         </>
     ) : (<>
         <NavBar />
@@ -42,6 +43,7 @@ const Cart = () => {
                 <h1>TOTAL: ${contadorPrecioTotal}</h1>
             </div>
         </div>
+        <Footer/>
     </>
     )
 }
