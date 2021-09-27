@@ -5,6 +5,7 @@ import ItemCart from "./ItemCart";
 import { Button, Image } from "react-bootstrap";
 import NavBar from "../nav/NavBar";
 import Footer from "../footer/Footer";
+import { AiFillDelete } from "react-icons/ai";
 
 const Cart = () => {
 
@@ -22,7 +23,7 @@ const Cart = () => {
     })
 
     const mapCart = cart.map((product) => (
-        <ItemCart key={product.itemId} onRemove={removeProduct} onEmpty={vaciarCarrito} dataToItemCart={product}></ItemCart>
+        <ItemCart key={product.itemId} onRemove={removeProduct}  dataToItemCart={product}></ItemCart>
     ))
     return cart.length === 0 ? (
         <>
@@ -42,6 +43,8 @@ const Cart = () => {
             </>
             <div className="cartContainer__other">
                 <h1>TOTAL: ${contadorPrecioTotal}</h1>
+                <Link to="/checkout"><Button id="addToCartButton">TERMINAR COMPRA</Button></Link>
+                <Button  id="addToCartButton"><AiFillDelete  onClick={vaciarCarrito}></AiFillDelete></Button>
             </div>
         </div>
         <Footer />

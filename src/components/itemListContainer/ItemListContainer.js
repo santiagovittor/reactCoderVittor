@@ -6,6 +6,7 @@ import NavBar from "../nav/NavBar";
 import CustomSpinner from "../Spinner";
 import { firestore } from "../../firebase";
 import Footer from "../footer/Footer";
+import MainCarousel from "../mainCarousel/mainCarousel";
 
 const ItemListContainer = () => {
     const [dataToShow, setDataToShow] = useState([]);
@@ -469,6 +470,9 @@ const ItemListContainer = () => {
         ) : (
             <>
                 <NavBar />
+                <div className="mainCarousel">
+                <MainCarousel></MainCarousel>
+                </div>
                 <div className="itemList">
                     <ItemList dataToItemList={dataToShow} />
                 </div>

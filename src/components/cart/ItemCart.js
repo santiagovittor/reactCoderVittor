@@ -1,6 +1,6 @@
 import { Button, Image } from "react-bootstrap";
 
-const ItemCart = ({ dataToItemCart, onRemove, onEmpty }) => {
+const ItemCart = ({ dataToItemCart, onRemove }) => {
 
     const toRemove = () => {
         window.scrollTo(0, 0)
@@ -15,7 +15,6 @@ const ItemCart = ({ dataToItemCart, onRemove, onEmpty }) => {
                 <h6>Cantidad: {dataToItemCart.cantidad}</h6>
                 <h6>Total Item: ${((dataToItemCart.cantidad) * (dataToItemCart.precio))}</h6>
                 <Button id="addToCartButton" onClick={toRemove}>Eliminar Item</Button>
-                <Button id="addToCartButton" onClick={onEmpty}>Vaciar Carrito</Button>
             </div>
             <div className="cartContainer__items--imagen">
                 <Image src={dataToItemCart.imagen} />

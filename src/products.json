@@ -700,5 +700,43 @@
         "descripcion": "Alemania Federal se llevó el Mundial de Italia 1990 derrotando por 1-0 a Argentina en la final. Se trató de la última competencia en la que participaron con ese nombre luego de la reunificación. Participaron de este gran equipo jugadores como Rudi Völler (quien fué el goleador del equipo con 6 tantos) y Lothar Matthäus, y fueron dirigidos por el legendario Franz Beckenbauer.",
         "stock": 0,
         "disponible": true
+    },
+    {
+        "id": "39",
+        "nombre": "PSV",
+        "precio": 14550,
+        "temporada": 1995,
+        "categoria": "Clubes",
+        "kit": "Local",
+        "liga": "Holanda",
+        "color": "Rojo",
+        "imagen": "https://cdn.footballkitarchive.com/2021/02/05/zoIN5oFtlvy9uss.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://i.pinimg.com/originals/87/a6/d1/87a6d17d8e3baf5444f39c0dee1d42c3.jpg",
+        "descripcion": "42 goles en 46 partidos le bastaron a Ronaldo para convertirse en leyenda del equipo holandés y ser traspasado por una suma millonaria al Barcelona. El logo de Nike, el diseño del cuello y el inolvidable Phillips le dan un toque distintivo a este inolvidable kit.",
+        "stock": 15,
+        "disponible": true
+    },
+    {
+        "id": "40",
+        "nombre": "Liverpool",
+        "precio": 9800,
+        "temporada": 2005,
+        "categoria": "Clubes",
+        "kit": "Local",
+        "liga": "Inglaterra",
+        "color": "Rojo",
+        "imagen": "https://cdn.footballkitarchive.com/2020/06/30/IseoWLbZo65e1Jr.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flh5.googleusercontent.com%2Fproxy%2FMPFmuSw9MwBF5PMH063gU2jRt2xMOchPUmrgZESyUQvykJ_2BBpXRhcACOfLKVV2O6Co1oHGNqr4XyvnjRdbL9d-bl1XCxPHRoDDeHY4Hrco8-JB3YutP4C20muvs04%3Ds0-d&f=1&nofb=1",
+        "descripcion": "El 25 de mayo de 2005 se dió en el Estadio Olímpico de Estambul la que hasta el momento es la final de UEFA Champions League con más goles de la historia. Milan ganaba por 3 a 0 al término del primer tiempo pero una ráfaga de goles en 6 minutos del Liverpool llevó el partido a los penales, donde los reds acabarían consagrándose campeones por 5ta vez en su historia. Para destacar las actuaciones de Steven Gerrard y Xabi Alonso en el vencedor.  ",
+        "stock": 15,
+        "disponible": true
     }
 ]
