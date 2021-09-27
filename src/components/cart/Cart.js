@@ -12,6 +12,7 @@ const Cart = () => {
 
     const vaciarCarrito = () => {
         clearCart();
+        window.scrollTo(0, 0)
     }
 
     let contadorPrecioTotal = 0
@@ -31,7 +32,7 @@ const Cart = () => {
                 <Image src="https://previews.123rf.com/images/studiostoks/studiostoks1602/studiostoks160200045/51904057-vaya-estilo-del-arte-pop-retro-mujer-sorprendida-concepto-de-negocio-noticias-inesperadas.jpg" alt="oops" />
                 <Link to="/shop"><Button id="addToCartButton">Volver a inicio</Button></Link>
             </div>
-            <Footer/>
+            <Footer />
         </>
     ) : (<>
         <NavBar />
@@ -43,7 +44,7 @@ const Cart = () => {
                 <h1>TOTAL: ${contadorPrecioTotal}</h1>
             </div>
         </div>
-        <Footer/>
+        <Footer />
     </>
     )
 }

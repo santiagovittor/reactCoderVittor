@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     const scrollToTop = () => {
         window.scrollTo(0, 0);
-      };
-    
+    };
+
     return (
         <div className="footer">
             <div className="mt-5 pt-5 pb-5 footer">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5 col-xs-12 about-company">
-                        <h1>the<span className="logoFootball">Football</span>Store.</h1>
+                            <h1>the<span className="logoFootball">Football</span>Store.</h1>
                             <p className="pr-5 text-white-50">Camisetas clásicas. Ni más, ni menos. </p>
                             <p><i className="fa fa-facebook-square mr-1"></i><i className="fa fa-linkedin-square"></i></p>
                         </div>

@@ -10,6 +10,10 @@ const ItemDetail = ({ dataToItemDetail }) => {
 
     const { addProduct } = useContext(context)
 
+    const goTop = () => {
+        window.scrollTo(0, 0)
+    }
+
     const onAdd = (cantidad) => {
         const productToAdd = { ...dataToItemDetail, cantidad }
         addProduct(productToAdd, cantidad)
@@ -40,7 +44,7 @@ const ItemDetail = ({ dataToItemDetail }) => {
                         :
                         <>
                             <Button id="addToCartButton" onClick={() => { setButtonType(value => !value) }}>Seguir comprando</Button>
-                            <Link to="/cart"><Button id="addToCartButton" variant="success">Terminar mi compra</Button></Link>
+                            <Link to="/cart"><Button id="addToCartButton" variant="success" onClick={goTop}>Terminar mi compra</Button></Link>
                         </>
                 }
             </div>

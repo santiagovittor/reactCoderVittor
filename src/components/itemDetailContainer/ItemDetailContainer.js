@@ -43,7 +43,7 @@ const ItemDetailContainer = () => {
                 <div className="itemDetailContainer">
                     <ItemDetail dataToItemDetail={dataToShow} />
                 </div>
-                <Footer/>
+                <Footer />
             </>
         )
     )
