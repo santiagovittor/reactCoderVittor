@@ -1,16 +1,167 @@
 import Footer from "../footer/Footer";
 import NavBar from "../nav/NavBar";
+import { Alert, Button } from "react-bootstrap";
+import { Formik, Form, Field, ErrorMessage } from "formik";
+import { useContext, useState } from "react";
+import { context } from "../../context/CartContext";
+import { firestore } from "../../firebase";
+import { Link } from "react-router-dom";
 
 const CheckOut = () => {
-    return ( 
+
+
+    const [formularioEnviado, setFormularioEnviado] = useState(false)
+    const [orderId, setOrderId] = useState()
+
+    const { cart, clearCart } = useContext(context)
+
+
+    let finalPrice = 0;
+
+    cart.forEach((product) => {
+        finalPrice = ((product.precio * product.cantidad) + finalPrice)
+    })
+
+
+    return (
         <>
-        <NavBar></NavBar>
-        <section>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse obcaecati perferendis illo, nihil quibusdam laborum ratione facere magnam rem ipsa officiis! Inventore accusantium, saepe repellat cupiditate nobis modi illo facilis incidunt cumque iusto blanditiis explicabo earum tenetur quia magni nisi officia dolor expedita ea soluta veritatis nemo similique! Nisi atque repellat dolor quo illo, praesentium consectetur maiores aperiam animi molestias similique ea reprehenderit laboriosam, beatae, adipisci aut! Hic omnis quam est id praesentium cumque cum, dolorem ratione, velit esse veritatis necessitatibus ad earum. Fugit inventore porro numquam esse dolor consequuntur dolorem? Non expedita explicabo ipsum voluptatum fuga provident illum aliquam veritatis maiores soluta. Ea iusto iure culpa. Blanditiis illum debitis corporis, consequatur cumque aliquam tempora, cum quisquam sit unde a impedit est nihil inventore reprehenderit modi corrupti ea odit aperiam consectetur reiciendis aliquid illo, officiis molestiae. Quam, iure. Tempore quae omnis exercitationem ratione quia quaerat esse corrupti quam reiciendis dolorum harum unde, repudiandae numquam, incidunt animi officiis sunt eveniet similique fuga placeat dicta culpa suscipit accusantium. Totam repellendus ad rerum, fugiat qui, doloremque cumque velit sed beatae officia, odio animi. Minima architecto veritatis distinctio, a, aliquid eligendi iusto sequi laboriosam libero, delectus dolorem nemo? Minima vero eius animi cupiditate veritatis quam quaerat enim aut fugit voluptates architecto odit dolorem, eaque possimus. Blanditiis sunt qui dolorem impedit consequatur fugit aut rerum maxime facilis, similique quaerat quam vel debitis animi quo repellendus enim nisi provident odio ullam tempora omnis. Dolores quae sunt autem at magnam corrupti doloribus molestias exercitationem commodi quod nesciunt reprehenderit inventore enim, cum nihil dolorem esse debitis consequatur. Laudantium fugit explicabo deserunt aspernatur obcaecati? Et iste itaque officia accusamus aliquam amet iusto, facere quaerat nemo reprehenderit magnam unde, explicabo commodi, saepe rem magni a debitis nesciunt odio tempore optio facilis voluptatem alias corporis. Dicta aut quos minima quas fugiat officia nemo error dolorem, quae enim eos aspernatur nam quis corrupti ipsa, molestias natus consectetur reprehenderit sunt quia excepturi. Quos veritatis labore, libero iure sed nam quibusdam, sequi amet saepe nisi ducimus asperiores tenetur possimus accusamus. Facilis reiciendis explicabo quas corporis totam possimus reprehenderit deserunt praesentium impedit, sed debitis, laudantium, numquam similique neque inventore ipsa. Odit maxime quam incidunt sapiente ea debitis asperiores ipsum, dolorum pariatur iure sequi aliquam vel odio error. Quasi asperiores fugit molestias officiis recusandae repudiandae pariatur et tenetur, eligendi voluptatum impedit quos debitis eaque natus beatae similique rerum tempore? Quod, qui. Impedit commodi laborum, molestias dolores officia ex nulla, a harum eligendi reiciendis rem delectus magni dignissimos dolorum autem? Eum nemo sit neque maxime voluptatibus? Quibusdam aliquam quasi doloribus dolorem. Sunt omnis sed fugiat voluptatibus odit! Quisquam excepturi commodi placeat tempore expedita culpa ipsum ea consectetur esse sit laborum unde, nobis atque deleniti sapiente eum veniam provident, odit in reiciendis, perspiciatis delectus magnam sequi? Fugiat at deserunt aut ullam reprehenderit molestias quaerat dolores ex beatae! Magni deserunt quaerat, necessitatibus natus odio, itaque veritatis, velit nostrum temporibus nulla alias maxime quas quod? In quos eum ipsam rerum beatae deserunt commodi saepe animi suscipit temporibus, placeat asperiores eligendi.</p>
-        </section>
-        <Footer></Footer>
+            <NavBar></NavBar>
+            <div className="checkOutContainer">
+                <Formik
+                    isInitialValid={false}
+                    initialValues={{
+                        nombre: '',
+                        celular: '',
+                        correo: ''
+                    }}
+                    validate={(valores) => {
+                        let errores = {}
+                        if (!valores.nombre) {
+                            errores.nombre = 'Por favor ingresa un nombre.'
+                        }
+                        else if (!/^[a-zA-ZÀ-ÿ\s]{1,40}$/.test(valores.nombre)) {
+                            errores.nombre = 'El nombre solo puede contener letras y espacios.'
+                        }
+
+                        if (!valores.correo) {
+                            errores.correo = 'Por favor ingresa un correo electrónico.'
+                        }
+                        else if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(valores.correo)) {
+                            errores.correo = 'El correo solo puede contener letras, números, puntos, guiones y guión bajo.'
+                        }
+
+                        if (!valores.celular) {
+                            errores.celular = 'Por favor ingresa un celular.'
+                        }
+                        else if (!/^\(?(\d{3})\)?[-]?(\d{3})[-]?(\d{4})$/.test(valores.celular)) {
+                            errores.celular = 'Ingresa un celular válido.'
+                        }
+
+                        return errores
+                    }}
+                    onSubmit={(valores, { resetForm }) => {
+
+                        const collection = firestore.collection("ordenes")
+
+                        let date = new Date()
+                        let currentDate = date.getDate() + '/' + date.getMonth() + '/' + date.getFullYear() + ' ' + date.getHours() + ':' + date.getMinutes();
+
+                        const selfGeneratedOrder = {
+                            buyer: {
+                                nombre: valores.nombre,
+                                phone: valores.celular,
+                                email: valores.correo
+                            },
+                            items: cart,
+                            date: currentDate,
+                            total: { finalPrice }
+                        }
+
+                        const query = collection.add(selfGeneratedOrder);
+                        query.then(({ id }) => {
+                            setFormularioEnviado(true)
+                            setOrderId(id)
+                        })
+                        query.catch((error) => {
+                            console.log(error)
+                        }
+                        )
+                        clearCart()
+                        resetForm()
+                        setTimeout(() => setFormularioEnviado(false), 15000)
+                    }}
+                >
+                    {({ errors, isValid }) => (
+                        <Form className="checkOutContainer__form" >
+                            <h1>CHECK OUT.</h1>
+                            <div className="checkOutContainer__form--input">
+                                <label htmlFor="nombre">Nombre y apellido</label>
+                                <Field
+                                    type="text"
+                                    name="nombre"
+                                    placeholder="Esteban Quito"
+                                    id="nombre"
+                                />
+                            </div>
+                            <ErrorMessage name="nombre" component={() => (
+                                <div className="checkOutContainer__form--error">{errors.nombre}</div>
+                            )} />
+
+                            <div className="checkOutContainer__form--input">
+                                <label htmlFor="celular">Celular</label>
+                                <Field
+                                    type="text"
+                                    name="celular"
+                                    placeholder="1162300345"
+                                    id="celular"
+                                />
+                            </div>
+                            <ErrorMessage name="celular" component={() => (
+                                <div className="checkOutContainer__form--error">{errors.celular}</div>
+                            )} />
+
+                            <div className="checkOutContainer__form--input">
+                                <label htmlFor="correo">Mail</label>
+                                <Field
+                                    type="email"
+                                    name="correo"
+                                    placeholder="mail@mail.com"
+                                    id="correo"
+                                />
+                            </div>
+                            <ErrorMessage name="correo" component={() => (
+                                <div className="checkOutContainer__form--error">{errors.correo}</div>
+                            )} />
+                            <div className="checkOutContainer__form--priceBreakdown">
+                                <p>Total: ${finalPrice}</p>
+                                <p>IVA: ${finalPrice * 0.21}</p>
+                                <p>Precio Final: ${finalPrice * 1.21}</p>
+                            </div>
+                            {cart.length === 0 ?
+                                <>
+                                    <Link to="/shop">
+                                        <Button variant="dark" className="checkOutContainer__form--button">Volver a la tienda</Button>
+                                    </Link>
+                                </>
+
+                                :
+
+                                <Button variant="success" disabled={!isValid} className="checkOutContainer__form--button" type="submit">Finalizar compra</Button>
+                            }
+                            {formularioEnviado ?
+                                <Alert variant='success'>Tu pedido número {orderId} se realizó con éxito!</Alert>
+                                :
+                                <>
+                                </>
+                            }
+                        </Form>
+                    )}
+
+                </Formik>
+            </div>
+            <Footer></Footer>
         </>
-     );
+    );
 }
- 
+
 export default CheckOut;

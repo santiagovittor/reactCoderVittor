@@ -176,8 +176,9 @@ nav {
 
 .mainCarousel img{
     max-height: 50%;
-    height: 70vh;
+    height: 75vh;
     border-radius: 1em;
+    border: 1px ridge rgb(114, 2, 2);
 }
 .mainCarousel:hover{
     opacity: 1;
@@ -487,9 +488,9 @@ nav {
     display: grid;
     place-items: center;
     border-radius: 1rem;
-    width: 80%;
+    width: 100%;
     margin: 2rem auto;
-    min-height: 8vh;
+    min-height: fit-content;
     background-color: white;
     box-shadow: rgb(39, 39, 39) 0.4vh 0.7vh 0.4vh;
 }
@@ -599,6 +600,54 @@ nav {
 .footer ul li:hover {
     cursor: pointer;
     color: #fed395;
+}
+
+.checkOutContainer{
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 3rem auto 3rem auto;
+    place-content: center;
+}
+
+.checkOutContainer__form{
+    display: grid;
+    background-color: white;
+    margin: 0 auto 0 auto;
+    padding: 2rem;
+    min-width: auto;
+    min-height: 40vh;
+    border-radius: 1em;
+    box-shadow: rgb(39, 39, 39) 0.4vh 0.7vh 0.4vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.checkOutContainer__form h1{
+    font-weight: 900;
+}
+
+.checkOutContainer__form--input{
+    display: grid;
+    width: 100%;
+    margin: 1rem auto 1rem auto;
+    overflow-x: hidden;
+}
+
+.checkOutContainer__form--button{
+    display: grid;
+    width: 100%;
+    height: fit-content;
+    margin: 1rem auto 1rem auto;
+}
+
+.checkOutContainer__form--error{
+    font-size: 70%;
+    color: red;
+}
+
+.checkOutContainer__form--priceBreakdown{
+    padding: 1em 0 1em 0;
+    line-height: 2vh;
 }
 
 @media (max-width: 1000px) {
@@ -733,6 +782,10 @@ nav {
     .emptyCartContainer img {
         width: 100%;
     }
+
+    .cartContainer__items{
+        min-width:60vw ;
+    }
     .cartContainer__items--info h3 {
         font-size: 75%;
         font-weight: 600;
@@ -743,7 +796,13 @@ nav {
 
     .cartContainer__items--imagen img {
         height: 8rem;
-        width: 4rem;
+        width: 8rem;
+    }
+
+
+        .cartContainer__other #addToCartButton{
+        margin: 1rem;
+        width: 80%;
     }
 }
 

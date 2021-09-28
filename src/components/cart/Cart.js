@@ -23,7 +23,7 @@ const Cart = () => {
     })
 
     const mapCart = cart.map((product) => (
-        <ItemCart key={product.itemId} onRemove={removeProduct}  dataToItemCart={product}></ItemCart>
+        <ItemCart key={product.itemId} onRemove={removeProduct} dataToItemCart={product}></ItemCart>
     ))
     return cart.length === 0 ? (
         <>
@@ -42,9 +42,9 @@ const Cart = () => {
                 {mapCart}
             </>
             <div className="cartContainer__other">
-                <h1>TOTAL: ${contadorPrecioTotal}</h1>
-                <Link to="/checkout"><Button id="addToCartButton">TERMINAR COMPRA</Button></Link>
-                <Button  id="addToCartButton"><AiFillDelete  onClick={vaciarCarrito}></AiFillDelete></Button>
+                <h3>TOTAL: ${contadorPrecioTotal}</h3>
+                <Link to="/checkout"><Button id="addToCartButton">Terminar Compra</Button></Link>
+                <Button id="addToCartButton" onClick={vaciarCarrito}>Vaciar Carrito</Button>
             </div>
         </div>
         <Footer />

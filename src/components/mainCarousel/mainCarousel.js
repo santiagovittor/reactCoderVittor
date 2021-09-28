@@ -36,7 +36,7 @@ const MainCarousel = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://images.daznservices.com/di/library/GOAL/2f/b3/eric-cantona_1onuljfneu6jr1152s0zos3myz.jpg"
+                        src="https://sfo2.digitaloceanspaces.com/estaticos/var/www/html/wp-content/uploads/2020/12/gullit-scaled.jpg"
                         alt="Third slide"
                     />
 
