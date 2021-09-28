@@ -22,7 +22,6 @@ const ItemDetailContainer = () => {
         query
             .then((snapshot) => {
                 const obtainedItem = snapshot.data()
-                console.log(obtainedItem)
                 setDataToShow(obtainedItem)
             })
             .catch((error) => {

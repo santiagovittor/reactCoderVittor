@@ -28,7 +28,7 @@ const CheckOut = () => {
             <NavBar></NavBar>
             <div className="checkOutContainer">
                 <Formik
-                    isInitialValid={false}
+                    validateOnMount
                     initialValues={{
                         nombre: '',
                         celular: '',

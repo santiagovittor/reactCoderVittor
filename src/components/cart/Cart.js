@@ -5,7 +5,6 @@ import ItemCart from "./ItemCart";
 import { Button, Image } from "react-bootstrap";
 import NavBar from "../nav/NavBar";
 import Footer from "../footer/Footer";
-import { AiFillDelete } from "react-icons/ai";
 
 const Cart = () => {
 
