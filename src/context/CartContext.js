@@ -26,7 +26,7 @@ const CustomProvider = ({ children }) => {
         if (isInCart(cartItem.itemId)) {
             const newCart = cart.filter(producto => producto.itemId !== cartItem.itemId)
             setCart([...newCart])
-        } 
+        }
     }
 
     const clearCart = () => {

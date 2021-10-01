@@ -10,7 +10,6 @@ body,
     background: url("https://images.freeimages.com/images/large-previews/c63/soccer-jumping-1395833.jpg") no-repeat
         center center fixed;
     background-size: cover;
-    min-height: 100vh;
 }
 
 a {
@@ -130,7 +129,7 @@ nav {
     place-content: center;
     padding-top: 20rem;
     width: 100%;
-    height: fit-content;
+    max-height: fit-content;
 }
 
 .landingPage button {
@@ -158,32 +157,29 @@ nav {
 
 .mainCarousel {
     display: grid;
-    width: 75%;
+    width: 90%;
+    height: 40%;
     font-family: "Montserrat", sans-serif;
-    height: 70vh;
     margin: 3rem auto 0 auto;
-    opacity: .95;
+    opacity: 0.95;
 }
 
-.carousel-caption{
-    opacity: .75;
+.mainCarousel:hover {
+    opacity: 1;
+    filter: saturate(1.1);
+    transition: 0.5s;
+}
+
+.mainCarousel img {
+    border-radius: 1em;
+}
+
+.carousel-caption {
+    opacity: 0.75;
     font-weight: 800;
     text-shadow: #ffffff 2px 2px 2px;
     border-radius: 1em;
     background-color: white;
-
-}
-
-.mainCarousel img{
-    max-height: 50%;
-    height: 75vh;
-    border-radius: 1em;
-    border: 1px ridge rgb(114, 2, 2);
-}
-.mainCarousel:hover{
-    opacity: 1;
-    filter: saturate(1.1);
-    transition: .5s;
 }
 
 .itemList {
@@ -602,17 +598,20 @@ nav {
     color: #fed395;
 }
 
-.checkOutContainer{
+.checkOutContainer {
     display: grid;
     grid-template-columns: 100%;
-    margin: 3rem auto 3rem auto;
+    background: url("https://images.freeimages.com/images/large-previews/af7/football-1218204.jpg") no-repeat
+        center center fixed;
+    background-size: cover;
+    margin-bottom: -8vh;
     place-content: center;
 }
 
-.checkOutContainer__form{
+.checkOutContainer__form {
     display: grid;
     background-color: white;
-    margin: 0 auto 0 auto;
+    margin: 4rem auto 4rem auto;
     padding: 2rem;
     min-width: auto;
     min-height: 40vh;
@@ -622,30 +621,30 @@ nav {
     font-weight: 600;
 }
 
-.checkOutContainer__form h1{
+.checkOutContainer__form h1 {
     font-weight: 900;
 }
 
-.checkOutContainer__form--input{
+.checkOutContainer__form--input {
     display: grid;
     width: 100%;
     margin: 1rem auto 1rem auto;
     overflow-x: hidden;
 }
 
-.checkOutContainer__form--button{
+.checkOutContainer__form--button {
     display: grid;
     width: 100%;
     height: fit-content;
     margin: 1rem auto 1rem auto;
 }
 
-.checkOutContainer__form--error{
+.checkOutContainer__form--error {
     font-size: 70%;
     color: red;
 }
 
-.checkOutContainer__form--priceBreakdown{
+.checkOutContainer__form--priceBreakdown {
     padding: 1em 0 1em 0;
     line-height: 2vh;
 }
@@ -715,8 +714,6 @@ nav {
 
     .nav__categories {
         font-family: "Montserrat", sans-serif;
-        display: flex;
-        order: 3;
         flex-flow: column wrap;
         padding: 2vh 8vh 2vh 8vh;
     }
@@ -761,18 +758,37 @@ nav {
         font-size: 1.5vh;
     }
 
-    #navBarToggleButton {
-        padding-bottom: 1vh;
+
+    .nav__categories{
+        display: flex;
+        order: 3;
     }
 
     .nav__categories button {
-        font-size: 1.5vh;
+        font-size: 1.75vh;
     }
+
+    .mainCarousel {
+        height: 70%;
+    }
+
+    .mainCarousel img {
+        height: 80%;
+    }
+
+    .carousel-item:active {
+        height: 80%;
+    }
+
     .itemDetailCardContainer .img-fluid {
-        width: 75%;
+        width: 80%;
+    }
+
+    .carousel-caption {
+        display: none;
     }
     #counterNumber {
-        font-size: 1.5vh;
+        font-size: 2vh;
     }
 
     .emptyCartContainer {
@@ -783,8 +799,8 @@ nav {
         width: 100%;
     }
 
-    .cartContainer__items{
-        min-width:60vw ;
+    .cartContainer__items {
+        min-width: 60vw;
     }
     .cartContainer__items--info h3 {
         font-size: 75%;
@@ -799,8 +815,7 @@ nav {
         width: 8rem;
     }
 
-
-        .cartContainer__other #addToCartButton{
+    .cartContainer__other #addToCartButton {
         margin: 1rem;
         width: 80%;
     }

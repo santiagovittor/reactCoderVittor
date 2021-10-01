@@ -44,9 +44,9 @@ const CheckOut = () => {
                         }
 
                         if (!valores.correo) {
-                            errores.correo = 'Por favor ingresa un correo electrónico.'
+                            errores.correo = ' Por favor ingresa un correo electrónico.'
                         }
-                        else if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(valores.correo)) {
+                        else if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.] +$/.test(valores.correo)) {
                             errores.correo = 'El correo solo puede contener letras, números, puntos, guiones y guión bajo.'
                         }
 
@@ -63,7 +63,7 @@ const CheckOut = () => {
 
                         const collection = firestore.collection("ordenes")
 
-                        let date = new Date()
+                        let date = new Date();
                         let currentDate = date.getDate() + '/' + date.getMonth() + '/' + date.getFullYear() + ' ' + date.getHours() + ':' + date.getMinutes();
 
                         const selfGeneratedOrder = {
@@ -75,7 +75,7 @@ const CheckOut = () => {
                             items: cart,
                             date: currentDate,
                             total: { finalPrice }
-                        }
+                        };
 
                         const query = collection.add(selfGeneratedOrder);
                         query.then(({ id }) => {

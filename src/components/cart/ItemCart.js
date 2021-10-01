@@ -6,7 +6,7 @@ const ItemCart = ({ dataToItemCart, onRemove }) => {
         window.scrollTo(0, 0)
         const productToRemove = { ...dataToItemCart }
         onRemove(productToRemove)
-    }
+    };
 
     return (
         <div className="cartContainer__items">

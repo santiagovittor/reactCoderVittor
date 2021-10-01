@@ -471,7 +471,7 @@ const ItemListContainer = () => {
             <>
                 <NavBar />
                 <div className="mainCarousel">
-                <MainCarousel></MainCarousel>
+                    <MainCarousel></MainCarousel>
                 </div>
                 <div className="itemList">
                     <ItemList dataToItemList={dataToShow} />

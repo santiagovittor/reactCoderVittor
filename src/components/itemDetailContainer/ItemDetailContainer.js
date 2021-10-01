@@ -25,7 +25,7 @@ const ItemDetailContainer = () => {
                 setDataToShow(obtainedItem)
             })
             .catch((error) => {
-                console.log(error)
+                console.error(error)
             })
 
 
