@@ -37,8 +37,6 @@ const CustomProvider = ({ children }) => {
         return cart.find(producto => producto.itemId === id)
     }
 
-
-
     const context = {
         cart,
         addProduct,

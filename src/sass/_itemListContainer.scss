@@ -1,0 +1,50 @@
+.itemList {
+    display: grid;
+    grid-template-columns: 33%33%33%;
+    margin-top: 3rem;
+    & img {
+        width: 80%;
+        height: 100%;
+        &:hover {
+            transition: 0.5s;
+            transform: scale(1.01);
+            filter: saturate(1.5);
+        }
+    }
+}
+
+
+.itemContainer {
+    display: grid;
+    width: 70%;
+    height: auto;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: rgb(39, 39, 39) 0.4vh 0.7vh 0.4vh;
+    border-radius: 1em;
+    margin: 1em auto;
+    background-color: white;
+    place-items: center;
+    grid-gap: 1em;
+    grid-template-areas:
+        "producto"
+        "producto"
+        "producto"
+        "producto"
+        "botonDetalles";
+        & h3 {
+            border-top: rgb(184, 183, 183) 1px solid;
+            padding-top: 2vh;
+            margin-right: 3vh;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        & a img {
+            display: grid;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &:hover {
+            transition: 0.25s;
+            box-shadow: rgb(94, 93, 93) 1vh 1vh 1vh;
+        }
+}

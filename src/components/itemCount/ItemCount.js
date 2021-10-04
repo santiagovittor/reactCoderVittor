@@ -23,7 +23,7 @@ const ItemCount = ({ stock, initial, onAdd, handleButton }) => {
     return (
         <Fragment>
             {stock ?
-                <div className="itemCard--top">
+                <div className="itemCount--top">
                     <Button id="plusButton" onClick={sumar}>+</Button>
                     <p id="counterNumber">{counter}</p>
                     <Button id="minusButton" onClick={restar}>-</Button>
@@ -34,7 +34,7 @@ const ItemCount = ({ stock, initial, onAdd, handleButton }) => {
             }
 
             {stock ?
-                <div className="itemCard--bottom">
+                <div className="itemCount--bottom">
                     <Button id="addToCartButton" onClick={addItems}>Agregar al carrito</Button>
                 </div>
                 :

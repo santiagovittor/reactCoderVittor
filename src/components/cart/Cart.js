@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { context } from "../../context/CartContext";
 import ItemCart from "./ItemCart";
-import { Button, Image } from "react-bootstrap";
+import { Button, Image, Alert } from "react-bootstrap";
 import NavBar from "../nav/NavBar";
 import Footer from "../footer/Footer";
 
@@ -44,8 +44,15 @@ const Cart = () => {
                     {mapCart}
                 </>
                 <div className="cartContainer__other">
+                    <div className="classContainer__other--totalPrice">
                     <h3>TOTAL: ${contadorPrecioTotal}</h3>
-                    <Link to="/checkout"><Button id="addToCartButton">Terminar Compra</Button></Link>
+                    {cart.length > 1 ? 
+                    <Alert variant='success'>Envío gratis</Alert>
+                    : 
+                    <></>
+                    }
+                    </div>
+                    <Link to="/checkout"><Button id="addToCartButton" onClick={()=>{window.scrollTo(0, 0)}}>Terminar Compra</Button></Link>
                     <Button id="addToCartButton" onClick={vaciarCarrito}>Vaciar Carrito</Button>
                 </div>
             </div>

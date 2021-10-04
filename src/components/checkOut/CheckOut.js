@@ -15,7 +15,6 @@ const CheckOut = () => {
 
     const { cart, clearCart } = useContext(context)
 
-
     let finalPrice = 0;
 
     cart.forEach((product) => {
@@ -46,7 +45,7 @@ const CheckOut = () => {
                         if (!valores.correo) {
                             errores.correo = ' Por favor ingresa un correo electrónico.'
                         }
-                        else if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.] +$/.test(valores.correo)) {
+                        else if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(valores.correo)) {
                             errores.correo = 'El correo solo puede contener letras, números, puntos, guiones y guión bajo.'
                         }
 
@@ -135,7 +134,14 @@ const CheckOut = () => {
                             <div className="checkOutContainer__form--priceBreakdown">
                                 <p>Total: ${finalPrice}</p>
                                 <p>IVA: ${finalPrice * 0.21}</p>
-                                <p>Precio Final: ${finalPrice * 1.21}</p>
+                                <p>Envío: {cart.length > 1 ? <span className="checkOutContainer__form--freeShip">GRATIS</span>
+                                    :
+                                    <>
+                                        ${finalPrice * 0.05}
+                                    </>
+                                }
+                                </p>
+                                <p>Precio Final: ${(finalPrice * 1.21)+(finalPrice * 0.05)}</p>
                             </div>
                             {cart.length === 0 ?
                                 <>

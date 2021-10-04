@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    background: url("https://images.freeimages.com/images/large-previews/c63/soccer-jumping-1395833.jpg") no-repeat
+        center center fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}

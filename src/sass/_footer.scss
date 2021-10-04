@@ -1,0 +1,37 @@
+.footer {
+    background-image: linear-gradient(
+        to top right,
+        rgb(125, 2, 2),
+        rgb(114, 2, 2),
+        rgb(103, 2, 3),
+        rgb(92, 3, 3),
+        rgb(81, 3, 3),
+        rgb(70, 3, 3),
+        rgb(60, 3, 4),
+        rgb(49, 3, 4),
+        rgb(38, 3, 4),
+        rgb(27, 4, 4),
+        rgb(16, 4, 5),
+        rgb(5, 4, 5)
+    );
+    box-shadow: 3px 1px 6px black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    & h1 {
+        font-family: "Lobster", cursive;
+        font-size: 6vh;
+        filter: drop-shadow(1vh 1vh 1vh black);
+    }
+    & h3 {
+        color: #fed395;
+        font-weight: 600;
+    }
+    & ul li:hover {
+        cursor: pointer;
+        color: #fed395;
+    }
+    &:hover {
+        filter: saturate(1.1);
+        transition: 0.5s;
+    }
+}

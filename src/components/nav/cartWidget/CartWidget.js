@@ -5,6 +5,12 @@ import { useContext } from "react";
 const CartWidget = () => {
     const { cart } = useContext(context);
     const cantidad = cart.length;
+
+    const goTop = () => {
+        window.scrollTo(0, 0)
+    }
+
+
     return (cantidad === 0) ? <>
     </>
         : (
@@ -14,7 +20,7 @@ const CartWidget = () => {
                         {cantidad}
                     </div>
                     <div className="widgetIcon">
-                        <Link to="/cart" id="cartIcon" className="material-icons">shopping_cart</Link>
+                        <Link to="/cart" id="cartIcon" className="material-icons"  onClick={goTop}>shopping_cart</Link>
                     </div>
                 </div>
             </>

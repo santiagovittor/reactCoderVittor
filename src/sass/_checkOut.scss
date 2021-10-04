@@ -1,0 +1,49 @@
+.checkOutContainer {
+    display: grid;
+    grid-template-columns: 100%;
+    background: url("https://images.freeimages.com/images/large-previews/af7/football-1218204.jpg") no-repeat
+        center center fixed;
+    background-size: cover;
+    margin-bottom: -8vh;
+    place-content: center;
+    &__form {
+        display: grid;
+        background-color: white;
+        margin: 4rem auto 4rem auto;
+        padding: 2rem;
+        min-width: auto;
+        min-height: 40vh;
+        border-radius: 1em;
+        box-shadow: rgb(39, 39, 39) 0.4vh 0.7vh 0.4vh;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        & h1 {
+            font-weight: 900;
+        }
+        &--input {
+            display: grid;
+            width: 100%;
+            margin: 1rem auto 1rem auto;
+            overflow-x: hidden;
+        }
+        &--button {
+            display: grid;
+            width: 100%;
+            height: fit-content;
+            margin: 1rem auto 1rem auto;
+        }
+        &--error {
+            font-size: 70%;
+            color: red;
+            font-weight: 600;
+        }
+        &--priceBreakdown {
+            padding: 1em 0 1em 0;
+            line-height: 2vh;
+        }
+        &--freeShip {
+            color: green;
+        }
+        
+    }
+}

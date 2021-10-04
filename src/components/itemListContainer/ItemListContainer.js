@@ -24,7 +24,6 @@ const ItemListContainer = () => {
                 queryPaises.then((snapshot) => {
                     const docs = snapshot.docs
                     const products = []
-
                     docs.forEach((doc) => {
 
                         const docSnapshot = doc;

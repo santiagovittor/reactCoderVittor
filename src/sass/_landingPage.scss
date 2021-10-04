@@ -1,0 +1,21 @@
+.landingPage {
+    display: grid;
+    place-content: center;
+    padding-top: 20rem;
+    width: 100%;
+    max-height: fit-content;
+    & button {
+        font-family: "Montserrat", sans-serif;
+        background-color: transparent;
+        border: none;
+        font-size: 9vh;
+        text-shadow: 1px 1px 5px black;
+        font-weight: 900;
+        &:hover {
+            background: transparent;
+            color: rgb(114, 2, 2);
+            box-shadow: inset 0 0 0 3px rgb(114, 2, 2);
+            transition: 0.5s;
+        }
+    }
+}

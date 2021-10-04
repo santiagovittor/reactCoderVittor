@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./estilos.css"
+import "./sass/css/estilos.css"
 import ItemListContainer from "./components/itemListContainer/ItemListContainer"
 import ItemDetailContainer from "./components/itemDetailContainer/ItemDetailContainer";
 import Cart from "./components/cart/Cart";

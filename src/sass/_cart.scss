@@ -1,0 +1,94 @@
+.emptyCartContainer {
+    display: grid;
+    width: 40%;
+    height: 70%;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: rgb(39, 39, 39) 0.4vh 0.7vh 0.4vh;
+    border-radius: 1em;
+    margin: 10% auto;
+    background-color: white;
+    place-items: center;
+    grid-gap: 1em;
+    & img {
+        width: 50%;
+    }
+}
+
+.cartContainer {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 50%;
+    margin: auto;
+    &__items {
+        display: grid;
+        width: 100%;
+        height: min-content;
+        grid-template-columns: 40% 10% 50%;
+        grid-template-areas: "info . imagen";
+        font-family: "Montserrat", sans-serif;
+        font-size: 3vh;
+        box-shadow: rgb(39, 39, 39) 0.4vh 0.7vh 0.4vh;
+        border-radius: 1rem;
+        margin: 2rem 0 2rem 0;
+        background-color: white;
+        place-items: center;
+        &--info {
+            display: grid;
+            grid-area: info;
+            place-content: center;
+        }
+        &--imagen {
+            display: grid;
+            grid-area: imagen;
+            width: 80%;
+            margin: 0 auto 0 auto;
+            height: 100%;
+            place-content: center;
+            padding: 3vh;
+            & img {
+                width: 85%;
+                height: 100%;
+                &:hover {
+                    filter: saturate(1.1);
+                    transform: scale(1.01);
+                    transition: 0.5s;
+                }
+            }
+        }
+        &:hover {
+            box-shadow: rgb(75, 75, 75) 0.4vh 1vh 0.5vh;
+        }
+    }
+    &__other{
+        display: grid;
+        place-items: center;
+        border-radius: 1rem;
+        width: 100%;
+        margin: 2rem auto;
+        min-height: fit-content;
+        background-color: white;
+        box-shadow: rgb(39, 39, 39) 0.4vh 0.7vh 0.4vh;
+        &:hover {
+            transition: 0.5s;
+            box-shadow: rgb(92, 92, 92) 0.4vh 0.7vh 0.4vh;
+        }
+    }
+    
+}
+
+
+.widgetIcon {
+    display: flex;
+    margin-left: -1.5vh;
+    margin-top: -0.75vh;
+}
+
+.widgetNumber {
+    display: flex;
+    place-content: center;
+    width: 2.5vh;
+    background-color: whitesmoke;
+    border: 1px white solid;
+    border-radius: 100%;
+    color: black;
+}

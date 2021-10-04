@@ -50,7 +50,7 @@ const ItemDetail = ({ dataToItemDetail }) => {
             </div>
             <div className="itemDetailRightContainer">
                 <Image src={dataToItemDetail.imagenDescripcion} fluid alt="Imagen de la camiseta siendo utilizada por el equipo durante ese año." />
-                <h3>++ Un poco de historia ++</h3>
+                <h2>++ Un poco de historia ++</h2>
                 <p>{dataToItemDetail.descripcion}</p>
             </div>
         </>

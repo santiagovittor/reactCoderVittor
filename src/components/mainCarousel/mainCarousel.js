@@ -30,7 +30,7 @@ const MainCarousel = () => {
 
                     <Carousel.Caption>
                         <h2>Envíos a domicilio</h2>
-                        <p>Son gratuitos llevando más de una prenda.</p>
+                        <p>Son gratuitos llevando dos items distintos.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>

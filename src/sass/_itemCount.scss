@@ -1,0 +1,18 @@
+.itemCount--top {
+    display: grid;
+    width: 100%;
+    grid-area: cantidad;
+    place-items: center;
+    grid-template-areas: "botonSumar contador botonRestar";
+}
+
+.itemCount--bottom {
+    display: grid;
+    grid-area: agregar;
+    & button:hover {
+        display: grid;
+        filter: saturate(2);
+        opacity: 1;
+        transition: 0.5s;
+    }
+}
