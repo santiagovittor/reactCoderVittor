@@ -6,14 +6,15 @@ import { useContext, useState } from "react";
 import { context } from "../../context/CartContext";
 import { firestore } from "../../firebase";
 import { Link } from "react-router-dom";
+import { FiCheckCircle } from "react-icons/fi";
 
 const CheckOut = () => {
 
 
-    const [formularioEnviado, setFormularioEnviado] = useState(false)
-    const [orderId, setOrderId] = useState()
-
-    const { cart, clearCart } = useContext(context)
+    const [formularioEnviado, setFormularioEnviado] = useState(false);
+    const [orderId, setOrderId] = useState();
+  
+    const { cart, clearCart } = useContext(context);
 
     let finalPrice = 0;
 
@@ -21,10 +22,9 @@ const CheckOut = () => {
         finalPrice = ((product.precio * product.cantidad) + finalPrice)
     })
 
-
     return (
         <>
-            <NavBar></NavBar>
+            <NavBar/>
             <div className="checkOutContainer">
                 <Formik
                     validateOnMount
@@ -82,7 +82,7 @@ const CheckOut = () => {
                             setOrderId(id)
                         })
                         query.catch((error) => {
-                            console.log(error)
+                            console.error(error)
                         }
                         )
                         clearCart()
@@ -141,7 +141,7 @@ const CheckOut = () => {
                                     </>
                                 }
                                 </p>
-                                <p>Precio Final: ${(finalPrice * 1.21)+(finalPrice * 0.05)}</p>
+                                <p>Precio Final: ${(finalPrice * 1.21) + (finalPrice * 0.05)}</p>
                             </div>
                             {cart.length === 0 ?
                                 <>
@@ -155,7 +155,7 @@ const CheckOut = () => {
                                 <Button variant="success" disabled={!isValid} className="checkOutContainer__form--button" type="submit">Finalizar compra</Button>
                             }
                             {formularioEnviado ?
-                                <Alert variant='success'>Tu pedido número {orderId} se realizó con éxito!</Alert>
+                                <Alert variant='success'><FiCheckCircle></FiCheckCircle> Tu pedido número {orderId} se realizó con éxito!</Alert>
                                 :
                                 <>
                                 </>

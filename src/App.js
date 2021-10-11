@@ -15,7 +15,7 @@ const App = () => {
             <CustomProvider>
                 <Switch>
                     <Route path="/" component={LandingPage} exact />
-                    <Route path="/shop" component={ItemListContainer} exact />
+                    <Route path="/shop/" component={ItemListContainer} exact />
                     <Route path="/categoria/:id" component={ItemListContainer} />
                     <Route path="/temporada/:id" component={ItemListContainer} />
                     <Route path="/liga/:id" component={ItemListContainer} />

@@ -22,9 +22,10 @@ const NavBar = () => {
                     <Link to="/shop">
                         <h1>the<span className="logoFootball">Football</span>Store.</h1>
                     </Link>
-                    <button id="navBarToggleButton" onClick={handleToggle}><Hamburger></Hamburger></button>
                     
-                    {navbarOpen ? <Categories /> : <></> }
+                    <button id="navBarToggleButton" onClick={handleToggle}><Hamburger></Hamburger></button>
+                
+                    {navbarOpen ? <Categories/> : <></> }
 
                     <CartWidget />
                 </nav>

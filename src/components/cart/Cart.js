@@ -2,11 +2,15 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { context } from "../../context/CartContext";
 import ItemCart from "./ItemCart";
-import { Button, Image, Alert } from "react-bootstrap";
 import NavBar from "../nav/NavBar";
 import Footer from "../footer/Footer";
+import { Button, Image, Alert } from "react-bootstrap";
+import { FiCheckCircle, FiInfo } from "react-icons/fi";
+
+
 
 const Cart = () => {
+
 
     const { cart, removeProduct, clearCart } = useContext(context);
 
@@ -46,14 +50,19 @@ const Cart = () => {
                 <div className="cartContainer__other">
                     <div className="classContainer__other--totalPrice">
                     <h3>TOTAL: ${contadorPrecioTotal}</h3>
-                    {cart.length > 1 ? 
-                    <Alert variant='success'>Envío gratis</Alert>
-                    : 
-                    <></>
-                    }
                     </div>
+                    {cart.length > 1 ? 
+                    <Alert variant='success'><FiCheckCircle></FiCheckCircle> Envío gratis</Alert>
+                    : 
+                    <>
+                    <Alert variant='info'><FiInfo></FiInfo> Recordá que llevando otro ítem distinto tu envío es gratuito.</Alert>
+                    <Link to="/shop"><Button id="addToCartButton" onClick={()=>{window.scrollTo(0, 0)}}>Seguir Comprando</Button></Link>
+                    </>
+                    }
+                    <div className="classContainer__other--buttons">
                     <Link to="/checkout"><Button id="addToCartButton" onClick={()=>{window.scrollTo(0, 0)}}>Terminar Compra</Button></Link>
                     <Button id="addToCartButton" onClick={vaciarCarrito}>Vaciar Carrito</Button>
+                    </div>
                 </div>
             </div>
             <Footer />

@@ -3,17 +3,22 @@ import { context } from "../../../context/CartContext";
 import { useContext } from "react";
 
 const CartWidget = () => {
+
+
     const { cart } = useContext(context);
     const cantidad = cart.length;
 
     const goTop = () => {
-        window.scrollTo(0, 0)
+        window.scroll({
+            top: 0,
+            behavior: "smooth"
+        });
     }
 
 
-    return (cantidad === 0) ? <>
-    </>
-        : (
+    return (cantidad === 0) ? <> </>
+
+    : (
             <>
                 <div className="navWidget">
                     <div className="widgetNumber">
