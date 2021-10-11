@@ -2,11 +2,13 @@ import { useState } from "react";
 import { Carousel } from "react-bootstrap";
 
 const MainCarousel = () => {
+
     const [index, setIndex] = useState(0);
 
-    const handleSelect = (selectedIndex, e) => {
+    const handleSelect = (selectedIndex) => {
         setIndex(selectedIndex);
     };
+
     return (
         <>
             <Carousel fade activeIndex={index} onSelect={handleSelect} variant="dark">
@@ -43,7 +45,7 @@ const MainCarousel = () => {
                     <Carousel.Caption>
                         <h2>Precios accesibles</h2>
                         <p>
-                            (No, ni ahí.)
+                            Es una cuestión de perspectiva.
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>

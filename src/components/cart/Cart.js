@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { context } from "../../context/CartContext";
 import ItemCart from "./ItemCart";
@@ -6,10 +6,16 @@ import NavBar from "../nav/NavBar";
 import Footer from "../footer/Footer";
 import { Button, Image, Alert } from "react-bootstrap";
 import { FiCheckCircle, FiInfo } from "react-icons/fi";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 const Cart = () => {
+
+    useEffect(() =>{
+        AOS.init({duration: 1500})
+    },[]);
 
 
     const { cart, removeProduct, clearCart } = useContext(context);
@@ -43,7 +49,7 @@ const Cart = () => {
         :
         (<>
             <NavBar />
-            <div className="cartContainer">
+            <div className="cartContainer" data-aos="zoom-out">
                 <>
                     {mapCart}
                 </>

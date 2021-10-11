@@ -2,6 +2,8 @@ import { Fragment, useState } from "react"
 import { Button } from "react-bootstrap"
 
 const ItemCount = ({ stock, initial, onAdd, handleButton }) => {
+
+    
     let [counter, setCounter] = useState(initial)
     const sumar = () => {
         if (counter < stock) {

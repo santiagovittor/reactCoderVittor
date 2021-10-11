@@ -1,14 +1,21 @@
 import Footer from "../footer/Footer";
 import NavBar from "../nav/NavBar";
-import { Alert, Button } from "react-bootstrap";
-import { Formik, Form, Field, ErrorMessage } from "formik";
-import { useContext, useState } from "react";
 import { context } from "../../context/CartContext";
 import { firestore } from "../../firebase";
+import { Alert, Button } from "react-bootstrap";
+import { Formik, Form, Field, ErrorMessage } from "formik";
+import { useContext, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FiCheckCircle } from "react-icons/fi";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const CheckOut = () => {
+
+    useEffect(() =>{
+        AOS.init({duration: 3000})
+    },[]);
 
 
     const [formularioEnviado, setFormularioEnviado] = useState(false);
@@ -91,7 +98,7 @@ const CheckOut = () => {
                     }}
                 >
                     {({ errors, isValid }) => (
-                        <Form className="checkOutContainer__form" >
+                        <Form className="checkOutContainer__form" data-aos="flip-left">
                             <h1>CHECK OUT.</h1>
                             <div className="checkOutContainer__form--input">
                                 <label htmlFor="nombre">Nombre y apellido</label>
@@ -165,7 +172,7 @@ const CheckOut = () => {
 
                 </Formik>
             </div>
-            <Footer></Footer>
+            <Footer/>
         </>
     );
 }

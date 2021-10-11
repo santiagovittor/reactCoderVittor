@@ -8,6 +8,7 @@ import { firestore } from "../../firebase";
 import Footer from "../footer/Footer";
 
 const ItemDetailContainer = () => {
+
     const [dataToShow, setDataToShow] = useState({});
     const { id } = useParams();
 
@@ -27,8 +28,6 @@ const ItemDetailContainer = () => {
             .catch((error) => {
                 console.error(error)
             })
-
-
 
     }, [id]);
     return (

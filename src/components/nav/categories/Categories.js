@@ -1,7 +1,17 @@
 import { NavLink } from "react-router-dom";
 import { DropdownButton, Dropdown } from "react-bootstrap";
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 
 const Categories = () => {
+
+
+    useEffect(() =>{
+        AOS.init({duration: 1500})
+    },[]);
 
 
     const scrollTo = () =>{
@@ -14,7 +24,7 @@ const Categories = () => {
 
     return (
         <>
-            <div className="nav__categories">
+            <div className="nav__categories" data-aos="fade">
                 <DropdownButton id="dropdown-basic-button" title="CATEGORIAS">
                     <Dropdown.Item as="button" onClick={scrollTo}><NavLink to="/categoria/Paises">Paises</NavLink></Dropdown.Item>
                     <Dropdown.Item as="button" onClick={scrollTo}><NavLink to="/categoria/Clubes">Clubes</NavLink></Dropdown.Item>

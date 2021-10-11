@@ -7,15 +7,19 @@ import CustomSpinner from "../Spinner";
 import { firestore } from "../../firebase";
 import Footer from "../footer/Footer";
 import MainCarousel from "../mainCarousel/mainCarousel";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const ItemListContainer = () => {
     
+
     const [dataToShow, setDataToShow] = useState([]);
     const { id } = useParams();
 
     useEffect(() => {
 
+        AOS.init({duration: 2500})
 
         const db = firestore
         const collection = db.collection("productos");
@@ -28,11 +32,9 @@ const ItemListContainer = () => {
                     const docs = snapshot.docs
                     const products = []
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
                     setDataToShow(products)
                 });
@@ -46,11 +48,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -65,11 +65,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -84,11 +82,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -103,11 +99,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -122,11 +116,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -141,11 +133,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -160,11 +150,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -179,11 +167,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -198,11 +184,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -217,11 +201,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -236,11 +218,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -255,11 +235,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -274,11 +252,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -293,11 +269,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -312,11 +286,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -331,11 +303,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -350,11 +320,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -369,11 +337,9 @@ const ItemListContainer = () => {
                     const products = []
 
                     docs.forEach((doc) => {
-
                         const docSnapshot = doc;
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
-
                     })
 
                     setDataToShow(products)
@@ -389,7 +355,6 @@ const ItemListContainer = () => {
 
                     docs.forEach((doc) => {
                         const docSnapshot = doc;
-
                         const productFromFirestoreWithId = { ...docSnapshot.data(), id: docSnapshot.id }
                         products.push(productFromFirestoreWithId)
                     })
@@ -421,7 +386,7 @@ const ItemListContainer = () => {
         ):(
             <>
                 <NavBar />
-                <div className="mainCarousel">
+                    <div className="mainCarousel" data-aos="fade">
                 <MainCarousel></MainCarousel>
             </div>
                 <div className="itemList" >

@@ -7,6 +7,9 @@ import { Slant as Hamburger } from 'hamburger-react'
 
 
 const NavBar = () => {
+
+
+
     const [navbarOpen, setNavbarOpen] = useState(false)
 
     const handleToggle = () => {
@@ -25,7 +28,7 @@ const NavBar = () => {
                     
                     <button id="navBarToggleButton" onClick={handleToggle}><Hamburger></Hamburger></button>
                 
-                    {navbarOpen ? <Categories/> : <></> }
+                    {navbarOpen ? <Categories /> : <></> }
 
                     <CartWidget />
                 </nav>

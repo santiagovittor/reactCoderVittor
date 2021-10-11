@@ -7,25 +7,25 @@ Simulé la existencia de un e-commerce de venta de camisetas de fútbol clásica
 La mayoría de las imagenes del sitio fueron obtenidas de la web [Football Kit Archive](https://www.footballkitarchive.com/), así como también la información correspondiente al kit mostrado. Las imagenes del background fueron tomadas del sitio [FreeImages](https://www.freeimages.com/es). No así los copys del detalle titulado 'CONTEXTO' que fueron de mi autoría.
 
 
-Tecnologías utilizadas 💻 
+## Tecnologías utilizadas 💻 
 
 * ReactJS
 * Sass
 
 
-Dependencias utilizadas 🛠️
+## Dependencias utilizadas 🛠️
 
 * React-Bootstrap, Node-Sass, React-Icons y React-Hamburguer para dar estilo al sitio.
 * Formik para validar el formulario del componente CheckOut.
 * AOS para las animaciones al hacer scroll.
 
 
-Despliegue 📦
+## Despliegue 📦
 
 El sitio fue desplegado en Vercel [theFootballStore](https://thefootballstore.vercel.app/).
 
 
-Autor ✒️
+## Autor ✒️
 
 * Santiago Vittor -[OnlineResume](https://santiagovittor.github.io/onlineResume/)
 
@@ -41,24 +41,24 @@ I mocked the existence of an e-commerce where users get to buy classic football 
 Most of the images of the site were obtained from [Football Kit Archive](https://www.footballkitarchive.com/), as well as the information regarding each item. The background images were taken from [FreeImages](https://www.freeimages.com/es). Finally, I wrote the copys that provide a little context to each kit in display.
 
 
-Included technologies 💻 
+## Included technologies 💻 
 
 * ReactJS
 * Sass
 
 
-Used dependencies 🛠️
+## Used dependencies 🛠️
 
 * React-Bootstrap, Node-Sass, React-Icons y React-Hamburguer to help improve the styling of the website.
 * Formik, in order to validate each input in the form provided in the CheckOut component.
 * AOS to handle scroll animations.
 
 
-Deployment 📦
+## Deployment 📦
 
 This site was deployed in Vercel [theFootballStore](https://thefootballstore.vercel.app/).
 
 
-Author ✒️
+## Author ✒️
 
 * Santiago Vittor -[OnlineResume](https://santiagovittor.github.io/onlineResume/)
