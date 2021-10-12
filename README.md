@@ -27,8 +27,7 @@ El sitio fue desplegado en Vercel [theFootballStore](https://thefootballstore.ve
 
 ## Demo 📺
 
-<iframe width="445" height="200" src="https://www.youtube.com/embed/drS_W7x26FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[![Demo](https://res.cloudinary.com/marcomontalbano/image/upload/v1633998612/video_to_markdown/images/youtube--drS_W7x26FI-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=drS_W7x26FI "Demo")
 
 ## Autor ✒️
 
@@ -68,8 +67,7 @@ This site was deployed in Vercel [theFootballStore](https://thefootballstore.ver
 
 ## Demo 📺
 
-<iframe width="445" height="200" src="https://www.youtube.com/embed/drS_W7x26FI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[![Demo](https://res.cloudinary.com/marcomontalbano/image/upload/v1633998612/video_to_markdown/images/youtube--drS_W7x26FI-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=drS_W7x26FI "Demo")
 
 ## Author ✒️
 
