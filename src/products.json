@@ -738,5 +738,100 @@
         "descripcion": "El 25 de mayo de 2005 se dió en el Estadio Olímpico de Estambul la que hasta el momento es la final de UEFA Champions League con más goles de la historia. Milan ganaba por 3 a 0 al término del primer tiempo pero una ráfaga de goles en 6 minutos del Liverpool llevó el partido a los penales, donde los reds acabarían consagrándose campeones por 5ta vez en su historia. Para destacar las actuaciones de Steven Gerrard y Xabi Alonso en el vencedor.  ",
         "stock": 15,
         "disponible": true
+    },
+    {
+        "id": "41",
+        "nombre": "Tottenham Hotspur",
+        "precio": 14000,
+        "temporada": 1998,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Inglaterra",
+        "color": "Blanco",
+        "imagen": "https://cdn.footballkitarchive.com/2020/12/05/tGMoL6qwybpLMDO.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://icdn.caughtoffside.com/wp-content/uploads/2019/07/Klinsmann1.jpg",
+        "descripcion": "La realidad es que el contexto en este caso es casi nulo. La temporada de los Spurs fue mediocre pero la camiseta es preciosa. Marca Pony y sponsoreada por HP, que la hayan utilizado Sol Campbell y Jurgen Klinsmann es prácticamente una anécdota.",
+        "stock": 15,
+        "disponible": true
+    },
+    {
+        "id": "42",
+        "nombre": "Olympique Lyon",
+        "precio": 8900,
+        "temporada": 2002,
+        "categoria": "Clubes",
+        "kit": "Alternativa",
+        "liga": "Francia",
+        "color": "Gris",
+        "imagen": "https://cdn.footballkitarchive.com/2020/12/17/JjAGaBSXohYoP1m.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/dataimagejpegbase649j4AAQSkZJRgABAQEBLAEsAAD4QjwaH-6f14202e1228b75c05dde17f49f22f27.jpg",
+        "descripcion": "El año 2002 fue el primero de 7 que vieron al Lyon coronarse como campeón en forma consecutiva de la Ligue One. En la foto, Juninho Pernanbucano, excelso jugador brasileño que fue artifice de la racha.",
+        "stock": 15,
+        "disponible": true
+    },
+    {
+        "id": "43",
+        "nombre": "Lazio",
+        "precio": 13900,
+        "temporada": 1999,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Italia",
+        "color": "Celeste",
+        "imagen": "https://cdn.footballkitarchive.com/2021/08/26/BTMdZADlbzwo0qS.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://assets.adnradio.cl/2020/08/file_20190212142659.jpg",
+        "descripcion": "Lazio tenía una plantilla estelar a fines del siglo pasado. En este equipo convivieron jugadores como Marcelo Salas, Pavel Nedved, Roberto Mancini, Alessandro Nesta, Diego Simeone y Juan Sebastián Verón. Juntos alcanzaron los cuartos de final de la UEFA Champions League y ganaron la Serie A y la Copa de Italia.",
+        "stock": 11,
+        "disponible": true
+    },
+    {
+        "id": "44",
+        "nombre": "Galatasaray",
+        "precio": 17000,
+        "temporada": 2000,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Turquia",
+        "color": "Amarillo",
+        "imagen": "https://cdn.footballkitarchive.com/2019/12/gmqJWEH1QMyFPko.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://editorial.uefa.com/resources/025d-0f55dd6fcb53-b9b562721b69-1000/galatasaray_as_2000.jpeg",
+        "descripcion": "En una gesta histórica para el fútbol turco, el Galatasaray ganó en el año 2000 la por entonces Copa de la UEFA (equivalente a la Europa League de hoy) al derrotar por penales al Arsenal en la final disputada en Copenhague. Se destacaron en ese equipo jugadores como Claudio Taffarel, Gheorge Hagi y Hakan Sukur. .",
+        "stock": 11,
+        "disponible": true
+    },
+    {
+        "id": "45",
+        "nombre": "Dinamarca",
+        "precio": 10000,
+        "temporada": 1998,
+        "categoria": "Paises",
+        "kit": "Titular",
+        "liga": "Mundial",
+        "color": "Rojo",
+        "imagen": "https://cdn.footballkitarchive.com/2020/10/01/q3wXTIZ44cPZ3Yu.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://eu-images.contentstack.com/v3/assets/bltcc7a7ffd2fbf71f5/blt3d2236f2f97e2e43/60ddc73a90ef0d39a2058e1d/eba09d2b503ffbaead31259493c6afc2172c2a8d.jpg?quality=60&w=1000",
+        "descripcion": "Este equipo danés alcanzó los cuartos de final del Mundial de Francia 1998, cayendo ante Brasil por 3 a 2. Nos regalaron momentos de gran fútbol de la mano de los hermanos Michael y Brian Laudrup.",
+        "stock": 14,
+        "disponible": true
     }
 ]

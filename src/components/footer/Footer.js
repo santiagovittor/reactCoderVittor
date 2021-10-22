@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import {AiOutlineMail} from "react-icons/ai";
+
 
 const Footer = () => {
 
@@ -33,7 +35,7 @@ const Footer = () => {
                             <h3 className="mt-lg-0 mt-sm-4">Ubicación</h3>
                             <p>General Pacheco, Buenos Aires, Argentina.</p>
                             <hr></hr>
-                            <a href="mailto:santi.vittor-@live.com.ar">santi.vittor-@live.com.ar</a>
+                            <AiOutlineMail><a href="mailto:santi.vittor-@live.com.ar">svittordev@gmail</a></AiOutlineMail>
                             <hr></hr>
                             <a href="https://api.whatsapp.com/send?phone=1162300345">1162300345</a>
                         </div>
