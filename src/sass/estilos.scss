@@ -136,10 +136,7 @@
     }
 
     .mainCarousel {
-        height: 70%;
-        & img {
-            height: 80%;
-        }
+        margin-top: 10vh;
     }
 
     .carousel-item:active {
@@ -160,6 +157,10 @@
         & img {
             width: 100%;
         }
+    }
+
+    .carousel-caption{
+        transform: scale(0.5);
     }
 
     .cartContainer__items {

@@ -57,11 +57,11 @@ const Cart = () => {
                     <div className="classContainer__other--totalPrice">
                     <h3>TOTAL: ${contadorPrecioTotal}</h3>
                     </div>
-                    {cart.length > 1 ? 
+                    {cart.length > 2 ? 
                     <Alert variant='success'><FiCheckCircle></FiCheckCircle> Envío gratis</Alert>
                     : 
                     <>
-                    <Alert variant='info'><FiInfo></FiInfo> Recordá que llevando otro ítem distinto tu envío es gratuito.</Alert>
+                    <Alert variant='info'><FiInfo></FiInfo> Recordá que llevando tres items distintos tu envío es gratuito.</Alert>
                     <Link to="/shop"><Button id="addToCartButton" onClick={()=>{window.scrollTo(0, 0)}}>Seguir Comprando</Button></Link>
                     </>
                     }

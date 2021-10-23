@@ -141,7 +141,7 @@ const CheckOut = () => {
                             <div className="checkOutContainer__form--priceBreakdown">
                                 <p>Total: ${finalPrice}</p>
                                 <p>IVA: ${finalPrice * 0.21}</p>
-                                <p>Envío: {cart.length > 1 ? <span className="checkOutContainer__form--freeShip">GRATIS</span>
+                                <p>Envío: {cart.length > 2 ? <span className="checkOutContainer__form--freeShip">GRATIS</span>
                                     :
                                     <>
                                         ${finalPrice * 0.05}

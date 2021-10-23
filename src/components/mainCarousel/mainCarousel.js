@@ -20,8 +20,8 @@ const MainCarousel = () => {
                     />
 
                     <Carousel.Caption>
-                        <h2>Envíos a domicilio</h2>
-                        <p>Son gratuitos llevando dos items distintos.</p>
+                    <h2>Camisetas vintage</h2>
+                        <p>Dificiles de conseguir? Las tenemos.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -31,8 +31,8 @@ const MainCarousel = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h2>Camisetas vintage</h2>
-                        <p>Dificiles de conseguir? Las tenemos.</p>
+                    <h2>Envíos a domicilio</h2>
+                        <p>Son gratuitos llevando tres items distintos.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
