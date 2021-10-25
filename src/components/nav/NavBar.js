@@ -5,17 +5,16 @@ import { useState } from "react";
 import { Slant as Hamburger } from 'hamburger-react'
 
 
-
 const NavBar = () => {
 
 
 
     const [navbarOpen, setNavbarOpen] = useState(false)
 
+
     const handleToggle = () => {
         setNavbarOpen(prev => !prev)
     }
-
 
 
     return (
