@@ -833,5 +833,62 @@
         "descripcion": "Este equipo danés alcanzó los cuartos de final del Mundial de Francia 1998, cayendo ante Brasil por 3 a 2. Nos regalaron momentos de gran fútbol de la mano de los hermanos Michael y Brian Laudrup y con figuras históricas como Peter Schmeichel y John Dahl Tomasson.",
         "stock": 14,
         "disponible": true
+    },
+    {
+        "id": "46",
+        "nombre": "Blackburn Rovers",
+        "precio": 19000,
+        "temporada": 1995,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Inglaterra",
+        "color": "Azul",
+        "imagen": "https://cdn.footballkitarchive.com/2020/11/14/8RTaR8R5TXWJvsz.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://www.semuanyabola.com/wp-content/uploads/2016/03/alan-shearer-chris-sutton-blackburn-rovers-1995_p1qk3navj40p10b2daxw4zdy3.jpg",
+        "descripcion": "La temporada 1994-1995 estuvo marcada por grandes hitos de la historia del fútbol inglés; la recordada patada de Eric Cantona a un fan del Crystal Palace que lo agredía desde las gradas y el título de Blackburn Rovers (única Premier League de su historia). Alan Shearer estuvo implacable durante este curso, marcando un total de 34 goles que lo coronarían como botín de oro del torneo. ",
+        "stock": 10,
+        "disponible": true
+    },
+    {
+        "id": "47",
+        "nombre": "Sampdoria",
+        "precio": 9500,
+        "temporada": 1994,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Italia",
+        "color": "Azul",
+        "imagen": "https://cdn.footballkitarchive.com/2020/11/11/JrIrXRDru9omJUn.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://cdn.theathletic.com/app/uploads/2020/09/23093927/Ruud-Gullit-David-Platt-Roberto-Mancini-Sampdoria-scaled-e1600868846394.jpg",
+        "descripcion": "Sampdoria ganó su primer Scudetto en el año 1991, luego de 2 años decepcionantes, volvió a coronarse campeón, en este caso de la Copa Italia en la temporada 1993-1994. En la foto se destacan tres de los artífices de esta gesta: Ruud Gullit, David Platt y Roberto Mancini. ",
+        "stock": 10,
+        "disponible": true
+    },
+    {
+        "id": "48",
+        "nombre": "Roma",
+        "precio": 11100,
+        "temporada": 2001,
+        "categoria": "Clubes",
+        "kit": "Titular",
+        "liga": "Italia",
+        "color": "Bordeaux",
+        "imagen": "https://cdn.footballkitarchive.com/2020/11/12/pQ8d6xTrJzlDP7H.jpg",
+        "talla": [
+            "40",
+            "44"
+        ],
+        "imagenDescripcion": "https://worldsoccertalk.com/wp-content/uploads/2015/01/roma-2001.jpg",
+        "descripcion": "Tan solo un año después del título de Lazio, sus acérrimos rivales, Fabio Capello logró llevarse la Serie A (tercera en la historia de Roma) de la mano de un equipo soñado. Los fichajes de Walter Samuel y Gabriel Batistuta terminaron de dar forma a un equipazo que contaba con la leyenda Francisco Totti, Cafú, Emerson y Vincenzo Montella. Batistuta fue el capocannonieri de la temporada, con 20 goles. ",
+        "stock": 10,
+        "disponible": true
     }
 ]

@@ -11,6 +11,7 @@ const ItemDetailContainer = () => {
 
     const [dataToShow, setDataToShow] = useState({});
     const { id } = useParams();
+    const [spinner, setSpinner] = useState(true)
 
     useEffect(() => {
 
@@ -19,19 +20,21 @@ const ItemDetailContainer = () => {
 
         let query = collection.doc(id)
         query = query.get()
-
+        
         query
             .then((snapshot) => {
                 const obtainedItem = snapshot.data()
                 setDataToShow(obtainedItem)
+                setSpinner(prev => !prev)
             })
             .catch((error) => {
                 console.error(error)
             })
 
     }, [id]);
+    
     return (
-        dataToShow===false ? (
+        spinner ? (
             <div className="loadingSpinnerContainer">
                 <CustomSpinner></CustomSpinner>
             </div>

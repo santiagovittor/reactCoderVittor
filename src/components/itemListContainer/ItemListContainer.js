@@ -21,28 +21,30 @@ const ItemListContainer = () => {
 
 
     const applyFilter = (searchTerm) => {
-        setSearchTerm(searchTerm);
+        setSearchTerm(searchTerm)
         const filtered = dataToShow.filter((searched) => {
             return Object.values(searched)
                 .join(" ")
                 .toLowerCase().includes(searchTerm.toLowerCase())
         })
-        setFilteredData(filtered)
+        setTimeout(setFilteredData(filtered),4000)
     };
 
     const handleForget = () => {
+        setSearchTerm("")
+        setFilteredData(dataToShow)
         setSearchBar(prev => !prev)
     }
 
     useEffect(() => {
 
-        AOS.init({ duration: 2500 })
+        AOS.init({ duration: 2000 })
 
         const db = firestore
         const collection = db.collection("productos");
+        let cleanUp = true;
 
-
-
+    if(cleanUp===true){
         if (id === "Paises") {
             let queryPaises = collection.where("categoria", "==", id)
             queryPaises = queryPaises.get()
@@ -365,6 +367,9 @@ const ItemListContainer = () => {
             )
         }
 
+    }
+    return cleanUp=false
+
     }, [id]);
 
 
@@ -397,7 +402,8 @@ const ItemListContainer = () => {
                                 searchBar ?
                                     <input
                                         data-aos="fade"
-                                        data-aos-duration="750" 
+                                        data-aos-duration="750"
+                                        data-aos-once="true" 
                                         className="searchBar__input"
                                         placeholder="Buscá tu favorita"
                                         value={searchTerm}
