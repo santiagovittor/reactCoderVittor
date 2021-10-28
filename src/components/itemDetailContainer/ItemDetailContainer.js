@@ -31,7 +31,7 @@ const ItemDetailContainer = () => {
 
     }, [id]);
     return (
-        dataToShow.length === 0 ? (
+        dataToShow===false ? (
             <div className="loadingSpinnerContainer">
                 <CustomSpinner></CustomSpinner>
             </div>
