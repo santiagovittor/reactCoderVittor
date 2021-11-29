@@ -1,6 +1,6 @@
 #detailsButton {
   display: grid;
-  width: 25vh;
+  width: 10rem;
   height: 5vh;
   place-content: center;
   grid-area: botonDetalles;
@@ -749,7 +749,8 @@ nav {
 
 @media (max-width: 1500px) {
   .itemList {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
     transition: 1s;
   }
   .landingPage {
@@ -846,6 +847,9 @@ nav {
   .itemList {
     grid-template-columns: 100%;
     transition: 1s;
+  }
+  .mainCarousel {
+    display: none;
   }
   header a h1 {
     order: 2;

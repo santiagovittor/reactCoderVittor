@@ -8,33 +8,12 @@ import NavBar from "../nav/NavBar";
 import CustomSpinner from "../Spinner";
 import MainCarousel from "../mainCarousel/mainCarousel";
 import Footer from "../footer/Footer";
-import { AiOutlineSearch, AiOutlineClose } from "react-icons/ai";
 
 const ItemListContainer = () => {
 
 
     const [dataToShow, setDataToShow] = useState([]);
-    const [filteredData, setFilteredData] = useState([]);
-    const [searchTerm, setSearchTerm] = useState("");
-    const [searchBar, setSearchBar] = useState(false)
     const { id } = useParams();
-
-
-    const applyFilter = (searchTerm) => {
-        setSearchTerm(searchTerm)
-        const filtered = dataToShow.filter((searched) => {
-            return Object.values(searched)
-                .join(" ")
-                .toLowerCase().includes(searchTerm.toLowerCase())
-        })
-        setTimeout(setFilteredData(filtered),4000)
-    };
-
-    const handleForget = () => {
-        setSearchTerm("")
-        setFilteredData(dataToShow)
-        setSearchBar(prev => !prev)
-    }
 
     useEffect(() => {
 
@@ -388,41 +367,19 @@ const ItemListContainer = () => {
                 <>
                     <NavBar />
                     <div className="itemList">
-                        <ItemList dataToItemList={filteredData.length > 0 ? filteredData : dataToShow} />
+                        <ItemList dataToItemList={dataToShow} />
                     </div>
                     <Footer />
                 </>
 
             ) : (
                 <>
-                    <header>
                         <NavBar />
-                        <div className="searchBar">
-                            {
-                                searchBar ?
-                                    <input
-                                        data-aos="fade"
-                                        data-aos-duration="750"
-                                        data-aos-once="true" 
-                                        className="searchBar__input"
-                                        placeholder="Buscá tu favorita"
-                                        value={searchTerm}
-                                        type="text"
-                                        onChange={(e) => applyFilter(e.currentTarget.value)}
-                                    />
-                                    :
-                                    <>
-                                    </>
-                            }
-
-                            <button id="searchButton" onClick={handleForget}>{searchBar ? <AiOutlineClose /> : <AiOutlineSearch />}</button>
-                        </div>
-                    </header>
                     <div className="mainCarousel" data-aos="fade">
                         <MainCarousel></MainCarousel>
                     </div>
                     <div className="itemList" >
-                        <ItemList dataToItemList={filteredData.length > 0 ? filteredData : dataToShow} />
+                        <ItemList dataToItemList={dataToShow} />
                     </div>
                     <Footer />
                 </>
